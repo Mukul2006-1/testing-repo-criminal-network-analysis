@@ -1,0 +1,3 @@
+# Phase 2 test tooling only (never a runtime dependency).
+# Install with: pip install -r backend/requirements-test.txt
+httpx>=0.27,<1

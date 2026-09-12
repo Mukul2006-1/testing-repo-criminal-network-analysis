@@ -1,0 +1,29 @@
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Docker volumes / local data
+postgres_data/
+neo4j_data/
+
+# Generated local databases (Phase 2 document store; never commit)
+*.db
+*.db-journal
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

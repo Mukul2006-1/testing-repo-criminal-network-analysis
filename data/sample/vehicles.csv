@@ -1,0 +1,17 @@
+vehicle_id,registration_number,owner_name,source
+vehicle_001,DL01AB1234,Rahul Sharma,SYNTHETIC
+vehicle_002,MH02CD5678,Amit Kumar,SYNTHETIC
+vehicle_003,DL03EF9012,Vikas S,SYNTHETIC
+vehicle_004,KA04GH3456,Sanjay Gupta,SYNTHETIC
+vehicle_005,UP05IJ7890,Arjun Mehta,SYNTHETIC
+vehicle_006,MH06KL1234,Kavita Rao,SYNTHETIC
+vehicle_007,DL07MN5678,M. Tiwari,SYNTHETIC
+vehicle_008,TN08OP9012,Deepak Yadav,SYNTHETIC
+vehicle_009,DL09QR3456,Rahul Verma,SYNTHETIC
+vehicle_010,KA10ST7890,Rohit Sharma,SYNTHETIC
+vehicle_011,UP11UV1234,Sunita Devi,SYNTHETIC
+vehicle_012,MH12WX5678,F. Khan,SYNTHETIC
+vehicle_013,DL13YZ9012,Geeta Patel,SYNTHETIC
+vehicle_014,KA14AB3456,P. Mishra,SYNTHETIC
+vehicle_015,TN15CD7890,Vikram Malhotra,SYNTHETIC
+vehicle_016,DL16EF1234,Karan Bedi,SYNTHETIC

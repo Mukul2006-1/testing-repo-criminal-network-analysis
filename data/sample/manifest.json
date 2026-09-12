@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "seed": 42,
+  "generated_at": "2026-09-11T17:47:38Z",
+  "counts": {
+    "entities": 20,
+    "fir": 25,
+    "cdr": 80,
+    "transactions": 45,
+    "vehicles": 16,
+    "locations": 16
+  },
+  "test_patterns": {
+    "central": "person_001 (many connections)",
+    "bridges": [
+      "person_007 (groups A-B)",
+      "person_014 (groups B-C)"
+    ],
+    "communities": {
+      "A": 7,
+      "B": 7,
+      "C": 6
+    },
+    "comm_anomaly": "person_003 (high call volume, night calls)",
+    "fin_anomaly": "person_009 (large transactions)",
+    "loc_anomaly": "person_012 (many location mentions)"
+  },
+  "disclaimer": "Completely fictional data for analytics testing only. No real persons, cases, or findings of criminality."
+}

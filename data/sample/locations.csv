@@ -1,0 +1,17 @@
+location_id,name,latitude,longitude
+location_001,"Shanti Nagar, Delhi",28.6139,77.2090
+location_002,"Green Park Extension, Delhi",28.5571,77.2067
+location_003,"Ashok Vihar, Delhi",,
+location_004,"Lakeview Colony, Mumbai",19.0760,72.8777
+location_005,"Shivaji Park, Mumbai",19.0282,72.8370
+location_006,"MG Road, Bengaluru",12.9716,77.5946
+location_007,"Whitefield, Bengaluru",12.9698,77.7500
+location_008,"Anna Nagar, Chennai",13.0827,80.2707
+location_009,"T Nagar, Chennai",13.0418,80.2341
+location_010,"Aliganj, Lucknow",26.8500,80.9462
+location_011,"Gomti Nagar, Lucknow",26.8467,80.9462
+location_012,"Kothrud, Pune",18.5074,73.8077
+location_013,"Hadapsar, Pune",18.5089,73.9260
+location_014,"Salt Lake, Kolkata",22.5726,88.3639
+location_015,"New Town, Kolkata",22.5793,88.4582
+location_016,"Riverbank Colony, Patna",,

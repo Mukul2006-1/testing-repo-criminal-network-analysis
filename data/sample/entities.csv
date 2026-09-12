@@ -1,0 +1,21 @@
+person_id,canonical_name,aliases,phone,account,vehicle,organization,group,test_pattern
+person_001,Rahul Sharma,Rahul S Sharma|R. Sharma,+919686579303|+919119540831,ACC001,vehicle_001,,A,central
+person_002,Amit Kumar,Amit K|A. Kumar,+919026855092,ACC002,vehicle_002,Sunrise Trading Co,A,community
+person_003,Vikas Singh,Vikas S|V. Singh,+919796233790|+919295310485,ACC003,vehicle_003,,A,comm_anomaly
+person_004,Priya Nair,P. Nair,+919262950628,,,,A,community
+person_005,Sanjay Gupta,S. Gupta,+919239670711,ACC004,vehicle_004,Sunrise Trading Co,A,community
+person_006,Neha Joshi,,+919149827706,,,,A,standard
+person_007,Arjun Mehta,A. Mehta,+919790779946,ACC005,vehicle_005,Cityline Cabs,A,bridge
+person_008,Kavita Rao,K. Rao,+919110053353,ACC006,vehicle_006,Lotus Logistics Pvt Ltd,B,community
+person_009,Manoj Tiwari,M. Tiwari,+919726600539,ACC007|ACC008,vehicle_007,,B,fin_anomaly
+person_010,Deepak Yadav,,+919795285932,ACC009,vehicle_008,Lotus Logistics Pvt Ltd,B,community
+person_011,Rahul Verma,,+919957970516,,vehicle_009,,B,similar_name
+person_012,Rohit Sharma,Rohit S,+919585582861,ACC010,vehicle_010,,B,loc_anomaly
+person_013,Sunita Devi,,+919093349856,,vehicle_011,,B,standard
+person_014,Farhan Khan,F. Khan,+919634036506,ACC011,vehicle_012,,B,bridge
+person_015,Geeta Patel,G. Patel,+919453035110,ACC012,vehicle_013,NovaTech Services,C,community
+person_016,Rajesh Iyer,,+919034126396,,,,C,community
+person_017,Pooja Mishra,P. Mishra,+919031994523,ACC013,vehicle_014,NovaTech Services,C,community
+person_018,Vikram Malhotra,,+919100604502,ACC014,vehicle_015,Harbourline Exports,C,standard
+person_019,Anjali Desai,A. Desai,+919234760738,,,,C,standard
+person_020,Karan Bedi,,+919249817734,ACC015,vehicle_016,,C,similar_name

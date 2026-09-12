@@ -1,0 +1,625 @@
+[
+  {
+    "source_id": "FIR_001",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_001",
+      "date": "2026-03-20",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a minor roadside quarrel involving Amit Kumar near New Town, Kolkata. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_001",
+      "date": "2026-03-20",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a minor roadside quarrel involving Amit Kumar near New Town, Kolkata. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_002",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_002",
+      "date": "2026-07-04",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Vikas Singh reported a reported dispute over a shop payment involving Priya Nair near Anna Nagar, Chennai. A vehicle bearing registration DL03EF9012 was noted near Anna Nagar, Chennai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_002",
+      "date": "2026-07-04",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Vikas Singh reported a reported dispute over a shop payment involving Priya Nair near Anna Nagar, Chennai. A vehicle bearing registration DL03EF9012 was noted near Anna Nagar, Chennai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_003",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_003",
+      "date": "2026-07-15",
+      "police_station": "Salt Lake Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant A. Mehta reported a lost vehicle document report involving Kavita Rao near Lakeview Colony, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_003",
+      "date": "2026-07-15",
+      "police_station": "Salt Lake Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant A. Mehta reported a lost vehicle document report involving Kavita Rao near Lakeview Colony, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_004",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_004",
+      "date": "2026-07-09",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Manoj Tiwari reported a missing mobile phone complaint involving Deepak Yadav near Whitefield, Bengaluru. A vehicle bearing registration DL07MN5678 was noted near Whitefield, Bengaluru. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_004",
+      "date": "2026-07-09",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Manoj Tiwari reported a missing mobile phone complaint involving Deepak Yadav near Whitefield, Bengaluru. A vehicle bearing registration DL07MN5678 was noted near Whitefield, Bengaluru. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_005",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_005",
+      "date": "2026-07-14",
+      "police_station": "Kothrud Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a lost vehicle document report involving Arjun Mehta near T Nagar, Chennai. The contact number +919686579303 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_005",
+      "date": "2026-07-14",
+      "police_station": "Kothrud Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a lost vehicle document report involving Arjun Mehta near T Nagar, Chennai. The contact number +919686579303 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_006",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_006",
+      "date": "2026-03-17",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rohit S reported a missing mobile phone complaint involving Rahul Verma near Lakeview Colony, Mumbai. A vehicle bearing registration KA10ST7890 was noted near Lakeview Colony, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_006",
+      "date": "2026-03-17",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rohit S reported a missing mobile phone complaint involving Rahul Verma near Lakeview Colony, Mumbai. A vehicle bearing registration KA10ST7890 was noted near Lakeview Colony, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_007",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_007",
+      "date": "2026-03-19",
+      "police_station": "",
+      "text": "[SYNTHETIC RECORD] Complainant Farhan Khan reported a missing mobile phone complaint involving Geeta Patel near Kothrud, Pune. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_007",
+      "date": "2026-03-19",
+      "text": "[SYNTHETIC RECORD] Complainant Farhan Khan reported a missing mobile phone complaint involving Geeta Patel near Kothrud, Pune. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_008",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_008",
+      "date": "2026-01-12",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Sanjay Gupta reported a minor roadside quarrel involving Neha Joshi near Shivaji Park, Mumbai. A vehicle bearing registration KA04GH3456 was noted near Shivaji Park, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_008",
+      "date": "2026-01-12",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Sanjay Gupta reported a minor roadside quarrel involving Neha Joshi near Shivaji Park, Mumbai. A vehicle bearing registration KA04GH3456 was noted near Shivaji Park, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_009",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_009",
+      "date": "2026-01-27",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant K. Rao reported a suspected forged billing receipt involving Manoj Tiwari near Shivaji Park, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_009",
+      "date": "2026-01-27",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant K. Rao reported a suspected forged billing receipt involving Manoj Tiwari near Shivaji Park, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_010",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_010",
+      "date": "2026-05-03",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Geeta Patel reported a suspected forged billing receipt involving Pooja Mishra near Aliganj, Lucknow. A vehicle bearing registration DL13YZ9012 was noted near Aliganj, Lucknow. The contact number +919453035110 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_010",
+      "date": "2026-05-03",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Geeta Patel reported a suspected forged billing receipt involving Pooja Mishra near Aliganj, Lucknow. A vehicle bearing registration DL13YZ9012 was noted near Aliganj, Lucknow. The contact number +919453035110 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_011",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_011",
+      "date": "2026-01-14",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a missing mobile phone complaint involving Vikas Singh near Gomti Nagar, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_011",
+      "date": "2026-01-14",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a missing mobile phone complaint involving Vikas Singh near Gomti Nagar, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_012",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_012",
+      "date": "2026-05-06",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Vikram Malhotra reported a suspected forged billing receipt involving Anjali Desai near Ashok Vihar, Delhi. A vehicle bearing registration TN15CD7890 was noted near Ashok Vihar, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_012",
+      "date": "2026-05-06",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Vikram Malhotra reported a suspected forged billing receipt involving Anjali Desai near Ashok Vihar, Delhi. A vehicle bearing registration TN15CD7890 was noted near Ashok Vihar, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_013",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_013",
+      "date": "2026-02-08",
+      "police_station": "Kothrud Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Arjun Mehta reported a missing mobile phone complaint involving Manoj Tiwari near Green Park Extension, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_013",
+      "date": "2026-02-08",
+      "police_station": "Kothrud Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Arjun Mehta reported a missing mobile phone complaint involving Manoj Tiwari near Green Park Extension, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_014",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_014",
+      "date": "2026-03-05",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Amit Kumar reported a reported dispute over a shop payment involving Sanjay Gupta near Aliganj, Lucknow. A vehicle bearing registration MH02CD5678 was noted near Aliganj, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_014",
+      "date": "2026-03-05",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Amit Kumar reported a reported dispute over a shop payment involving Sanjay Gupta near Aliganj, Lucknow. A vehicle bearing registration MH02CD5678 was noted near Aliganj, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_015",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_015",
+      "date": "2026-04-08",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Deepak Yadav reported a lost vehicle document report involving Rohit Sharma near Anna Nagar, Chennai. The contact number +919795285932 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_015",
+      "date": "2026-04-08",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Deepak Yadav reported a lost vehicle document report involving Rohit Sharma near Anna Nagar, Chennai. The contact number +919795285932 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_016",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_016",
+      "date": "2026-04-20",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Farhan Khan reported a lost vehicle document report involving M. Tiwari near Aliganj, Lucknow. A vehicle bearing registration MH12WX5678 was noted near Aliganj, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_016",
+      "date": "2026-04-20",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Farhan Khan reported a lost vehicle document report involving M. Tiwari near Aliganj, Lucknow. A vehicle bearing registration MH12WX5678 was noted near Aliganj, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_017",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_017",
+      "date": "2026-07-09",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rajesh Iyer reported a lost vehicle document report involving Pooja Mishra near Green Park Extension, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_017",
+      "date": "2026-07-09",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rajesh Iyer reported a lost vehicle document report involving Pooja Mishra near Green Park Extension, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_018",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_018",
+      "date": "2026-06-19",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a minor roadside quarrel involving Rohit Sharma near Whitefield, Bengaluru. A vehicle bearing registration DL01AB1234 was noted near Whitefield, Bengaluru. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_018",
+      "date": "2026-06-19",
+      "police_station": "Shanti Nagar Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Sharma reported a minor roadside quarrel involving Rohit Sharma near Whitefield, Bengaluru. A vehicle bearing registration DL01AB1234 was noted near Whitefield, Bengaluru. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_019",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_019",
+      "date": "2026-02-14",
+      "police_station": "",
+      "text": "[SYNTHETIC RECORD] Complainant Priya Nair reported a missing mobile phone complaint involving Neha Joshi near MG Road, Bengaluru. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_019",
+      "date": "2026-02-14",
+      "text": "[SYNTHETIC RECORD] Complainant Priya Nair reported a missing mobile phone complaint involving Neha Joshi near MG Road, Bengaluru. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_020",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_020",
+      "date": "2026-04-15",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Verma reported a reported dispute over a shop payment involving Sunita Devi near MG Road, Bengaluru. A vehicle bearing registration DL09QR3456 was noted near MG Road, Bengaluru. The contact number +919957970516 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_020",
+      "date": "2026-04-15",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rahul Verma reported a reported dispute over a shop payment involving Sunita Devi near MG Road, Bengaluru. A vehicle bearing registration DL09QR3456 was noted near MG Road, Bengaluru. The contact number +919957970516 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_021",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_021",
+      "date": "2026-01-09",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant V. Singh reported a minor roadside quarrel involving Arjun Mehta near Riverbank Colony, Patna. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_021",
+      "date": "2026-01-09",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant V. Singh reported a minor roadside quarrel involving Arjun Mehta near Riverbank Colony, Patna. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_022",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_022",
+      "date": "2026-06-29",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Manoj Tiwari reported a minor roadside quarrel involving Farhan Khan near Aliganj, Lucknow. A vehicle bearing registration DL07MN5678 was noted near Aliganj, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_022",
+      "date": "2026-06-29",
+      "police_station": "Aliganj Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Manoj Tiwari reported a minor roadside quarrel involving Farhan Khan near Aliganj, Lucknow. A vehicle bearing registration DL07MN5678 was noted near Aliganj, Lucknow. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_023",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_023",
+      "date": "2026-08-25",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Karan Bedi reported a missing mobile phone complaint involving Vikram Malhotra near Ashok Vihar, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_023",
+      "date": "2026-08-25",
+      "police_station": "MG Road Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Karan Bedi reported a missing mobile phone complaint involving Vikram Malhotra near Ashok Vihar, Delhi. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_024",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_024",
+      "date": "2026-02-27",
+      "police_station": "Salt Lake Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Sanjay Gupta reported a lost vehicle document report involving Rahul S Sharma near Lakeview Colony, Mumbai. A vehicle bearing registration KA04GH3456 was noted near Lakeview Colony, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_024",
+      "date": "2026-02-27",
+      "police_station": "Salt Lake Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Sanjay Gupta reported a lost vehicle document report involving Rahul S Sharma near Lakeview Colony, Mumbai. A vehicle bearing registration KA04GH3456 was noted near Lakeview Colony, Mumbai. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_025",
+    "source_type": "FIR",
+    "upload_id": "upl_3bd761fd",
+    "original": {
+      "fir_id": "FIR_025",
+      "date": "2026-07-31",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rohit Sharma reported a minor roadside quarrel involving Farhan Khan near Shivaji Park, Mumbai. The contact number +919585582861 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_025",
+      "date": "2026-07-31",
+      "police_station": "Lakeview Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rohit Sharma reported a minor roadside quarrel involving Farhan Khan near Shivaji Park, Mumbai. The contact number +919585582861 was provided for follow-up. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "fir.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-11T21:23:03Z",
+      "status": "PROCESSED"
+    }
+  }
+]
