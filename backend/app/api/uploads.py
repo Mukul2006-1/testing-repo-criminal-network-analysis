@@ -13,6 +13,7 @@ from fastapi import APIRouter, Depends, File, Form, UploadFile
 from fastapi.responses import JSONResponse
 
 from ..services import auth as auth_svc
+from ..services import audit as audit_mod
 from ..services.validation import (
     MAX_FILE_SIZE_BYTES,
     IngestionError,
@@ -59,6 +60,10 @@ async def upload_file(
             content, file.filename, dataset_type.strip().upper(),
             source_name=source_name, description=description,
             uploaded_by=user["id"])
+        audit_mod.record(get_service().store,
+                         actor=user.get("email", user["id"]),
+                         action="ingest.upload", target=document["id"],
+                         input_hash=document["file_hash"])
     except IngestionError as exc:
         return error_response(exc)
     meta = document["metadata"]

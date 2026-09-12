@@ -13,7 +13,8 @@ from fastapi.responses import JSONResponse
 
 from ..schemas.process import ProcessRequest
 from ..services import auth as auth_svc
-from ..services.validation import IngestionError
+from ..services import audit as audit_mod
+from ..services.validation import ID_RE, IngestionError
 from .deps import error_response, get_service, ok
 
 router = APIRouter()
@@ -24,6 +25,10 @@ def process_document(body: ProcessRequest,
                      user: dict = Depends(auth_svc.require_user)):
     try:
         result = get_service().process(body.upload_id)
+        audit_mod.record(get_service().store,
+                         actor=user.get("email", user["id"]),
+                         action="ingest.process", target=body.upload_id,
+                         output_hash=audit_mod.digest(result["status"]))
     except IngestionError as exc:
         return error_response(exc)
     message = {"SUCCEEDED": "Processing completed; output stored.",
@@ -35,6 +40,14 @@ def process_document(body: ProcessRequest,
 
 @router.get("/process/{job_id}")
 def get_job(job_id: str, user: dict = Depends(auth_svc.require_user)):
+    if not ID_RE.match(job_id):
+        return JSONResponse(
+            status_code=400,
+            content={"success": False,
+                     "error": {"code": "INVALID_ID",
+                               "message": "Malformed job id.",
+                               "details": []}},
+        )
     job = get_service().store.get_job(job_id)
     if job is None:
         return JSONResponse(

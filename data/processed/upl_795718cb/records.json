@@ -1,0 +1,1217 @@
+[
+  {
+    "source_id": "TXN001",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN001",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC008",
+      "amount": "895968",
+      "currency": "INR",
+      "timestamp": "2026-08-17T19:39:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN001",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC008",
+      "amount": 895968,
+      "currency": "INR",
+      "timestamp": "2026-08-17T19:39:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN002",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN002",
+      "sender_account": "ACC011",
+      "receiver_account": "ACC008",
+      "amount": "787242",
+      "currency": "INR",
+      "timestamp": "2026-04-25T10:47:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN002",
+      "sender_account": "ACC011",
+      "receiver_account": "ACC008",
+      "amount": 787242,
+      "currency": "INR",
+      "timestamp": "2026-04-25T10:47:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN003",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN003",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC008",
+      "amount": "894147",
+      "currency": "INR",
+      "timestamp": "2026-03-05T13:49:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN003",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC008",
+      "amount": 894147,
+      "currency": "INR",
+      "timestamp": "2026-03-05T13:49:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN004",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN004",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC007",
+      "amount": "643968",
+      "currency": "INR",
+      "timestamp": "2026-04-23T07:45:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN004",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC007",
+      "amount": 643968,
+      "currency": "INR",
+      "timestamp": "2026-04-23T07:45:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN005",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN005",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC006",
+      "amount": "667619",
+      "currency": "INR",
+      "timestamp": "2026-08-17T22:05:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN005",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC006",
+      "amount": 667619,
+      "currency": "INR",
+      "timestamp": "2026-08-17T22:05:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN006",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN006",
+      "sender_account": "ACC007",
+      "receiver_account": "ACC009",
+      "amount": "863829",
+      "currency": "INR",
+      "timestamp": "2026-02-09T11:04:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN006",
+      "sender_account": "ACC007",
+      "receiver_account": "ACC009",
+      "amount": 863829,
+      "currency": "INR",
+      "timestamp": "2026-02-09T11:04:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN007",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN007",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC011",
+      "amount": "744278",
+      "currency": "INR",
+      "timestamp": "2026-04-17T06:13:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN007",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC011",
+      "amount": 744278,
+      "currency": "INR",
+      "timestamp": "2026-04-17T06:13:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN008",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN008",
+      "sender_account": "ACC009",
+      "receiver_account": "ACC007",
+      "amount": "801827",
+      "currency": "INR",
+      "timestamp": "2026-04-08T20:00:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN008",
+      "sender_account": "ACC009",
+      "receiver_account": "ACC007",
+      "amount": 801827,
+      "currency": "INR",
+      "timestamp": "2026-04-08T20:00:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN009",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN009",
+      "sender_account": "ACC005",
+      "receiver_account": "ACC008",
+      "amount": "719687",
+      "currency": "INR",
+      "timestamp": "2026-05-18T22:51:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN009",
+      "sender_account": "ACC005",
+      "receiver_account": "ACC008",
+      "amount": 719687,
+      "currency": "INR",
+      "timestamp": "2026-05-18T22:51:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN010",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN010",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC008",
+      "amount": "615040",
+      "currency": "INR",
+      "timestamp": "2026-03-11T18:31:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN010",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC008",
+      "amount": 615040,
+      "currency": "INR",
+      "timestamp": "2026-03-11T18:31:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN011",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN011",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC013",
+      "amount": "856065",
+      "currency": "INR",
+      "timestamp": "2026-07-24T17:46:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN011",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC013",
+      "amount": 856065,
+      "currency": "INR",
+      "timestamp": "2026-07-24T17:46:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN012",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN012",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC003",
+      "amount": "826241",
+      "currency": "INR",
+      "timestamp": "2026-05-17T05:58:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN012",
+      "sender_account": "ACC008",
+      "receiver_account": "ACC003",
+      "amount": 826241,
+      "currency": "INR",
+      "timestamp": "2026-05-17T05:58:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN013",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN013",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC009",
+      "amount": "58790",
+      "currency": "INR",
+      "timestamp": "2026-05-25T05:05:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN013",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC009",
+      "amount": 58790,
+      "currency": "INR",
+      "timestamp": "2026-05-25T05:05:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN014",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN014",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC013",
+      "amount": "48089",
+      "currency": "INR",
+      "timestamp": "2026-02-04T19:11:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN014",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC013",
+      "amount": 48089,
+      "currency": "INR",
+      "timestamp": "2026-02-04T19:11:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN015",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN015",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC005",
+      "amount": "44844",
+      "currency": "INR",
+      "timestamp": "2026-03-25T11:29:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN015",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC005",
+      "amount": 44844,
+      "currency": "INR",
+      "timestamp": "2026-03-25T11:29:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN016",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN016",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC006",
+      "amount": "42118",
+      "currency": "INR",
+      "timestamp": "2026-07-14T17:17:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN016",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC006",
+      "amount": 42118,
+      "currency": "INR",
+      "timestamp": "2026-07-14T17:17:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN017",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN017",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC015",
+      "amount": "74520",
+      "currency": "INR",
+      "timestamp": "2026-04-18T13:53:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN017",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC015",
+      "amount": 74520,
+      "currency": "INR",
+      "timestamp": "2026-04-18T13:53:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN018",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN018",
+      "sender_account": "ACC002",
+      "receiver_account": "ACC008",
+      "amount": "6270",
+      "currency": "INR",
+      "timestamp": "2026-07-11T22:03:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN018",
+      "sender_account": "ACC002",
+      "receiver_account": "ACC008",
+      "amount": 6270,
+      "currency": "INR",
+      "timestamp": "2026-07-11T22:03:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN019",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN019",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC004",
+      "amount": "47607",
+      "currency": "INR",
+      "timestamp": "2026-01-18T06:48:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN019",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC004",
+      "amount": 47607,
+      "currency": "INR",
+      "timestamp": "2026-01-18T06:48:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN020",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN020",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC004",
+      "amount": "18065",
+      "currency": "INR",
+      "timestamp": "2026-08-03T05:39:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN020",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC004",
+      "amount": 18065,
+      "currency": "INR",
+      "timestamp": "2026-08-03T05:39:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN021",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN021",
+      "sender_account": "ACC003",
+      "receiver_account": "ACC004",
+      "amount": "13272",
+      "currency": "INR",
+      "timestamp": "2026-05-02T08:36:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN021",
+      "sender_account": "ACC003",
+      "receiver_account": "ACC004",
+      "amount": 13272,
+      "currency": "INR",
+      "timestamp": "2026-05-02T08:36:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN022",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN022",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC008",
+      "amount": "50840",
+      "currency": "INR",
+      "timestamp": "2026-03-07T16:10:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN022",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC008",
+      "amount": 50840,
+      "currency": "INR",
+      "timestamp": "2026-03-07T16:10:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN023",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN023",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC015",
+      "amount": "54016",
+      "currency": "INR",
+      "timestamp": "2026-07-03T08:49:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN023",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC015",
+      "amount": 54016,
+      "currency": "INR",
+      "timestamp": "2026-07-03T08:49:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN024",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN024",
+      "sender_account": "ACC014",
+      "receiver_account": "ACC003",
+      "amount": "25384",
+      "currency": "INR",
+      "timestamp": "2026-01-28T23:01:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN024",
+      "sender_account": "ACC014",
+      "receiver_account": "ACC003",
+      "amount": 25384,
+      "currency": "INR",
+      "timestamp": "2026-01-28T23:01:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN025",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN025",
+      "sender_account": "ACC015",
+      "receiver_account": "ACC005",
+      "amount": "42735",
+      "currency": "INR",
+      "timestamp": "2026-06-23T17:25:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN025",
+      "sender_account": "ACC015",
+      "receiver_account": "ACC005",
+      "amount": 42735,
+      "currency": "INR",
+      "timestamp": "2026-06-23T17:25:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN026",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN026",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC004",
+      "amount": "9980",
+      "currency": "INR",
+      "timestamp": "2026-06-01T12:06:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN026",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC004",
+      "amount": 9980,
+      "currency": "INR",
+      "timestamp": "2026-06-01T12:06:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN027",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN027",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC013",
+      "amount": "24764",
+      "currency": "INR",
+      "timestamp": "2026-08-06T08:50:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN027",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC013",
+      "amount": 24764,
+      "currency": "INR",
+      "timestamp": "2026-08-06T08:50:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN028",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN028",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC013",
+      "amount": "7691",
+      "currency": "INR",
+      "timestamp": "2026-03-30T22:27:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN028",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC013",
+      "amount": 7691,
+      "currency": "INR",
+      "timestamp": "2026-03-30T22:27:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN029",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN029",
+      "sender_account": "ACC011",
+      "receiver_account": "ACC006",
+      "amount": "9519",
+      "currency": "INR",
+      "timestamp": "2026-05-10T15:00:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN029",
+      "sender_account": "ACC011",
+      "receiver_account": "ACC006",
+      "amount": 9519,
+      "currency": "INR",
+      "timestamp": "2026-05-10T15:00:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN030",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN030",
+      "sender_account": "ACC014",
+      "receiver_account": "ACC007",
+      "amount": "58892",
+      "currency": "INR",
+      "timestamp": "2026-05-06T08:27:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN030",
+      "sender_account": "ACC014",
+      "receiver_account": "ACC007",
+      "amount": 58892,
+      "currency": "INR",
+      "timestamp": "2026-05-06T08:27:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN031",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN031",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC011",
+      "amount": "59310",
+      "currency": "INR",
+      "timestamp": "2026-04-28T09:27:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN031",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC011",
+      "amount": 59310,
+      "currency": "INR",
+      "timestamp": "2026-04-28T09:27:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN032",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN032",
+      "sender_account": "ACC003",
+      "receiver_account": "ACC012",
+      "amount": "39193",
+      "currency": "INR",
+      "timestamp": "2026-06-16T13:39:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN032",
+      "sender_account": "ACC003",
+      "receiver_account": "ACC012",
+      "amount": 39193,
+      "currency": "INR",
+      "timestamp": "2026-06-16T13:39:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN033",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN033",
+      "sender_account": "ACC013",
+      "receiver_account": "ACC009",
+      "amount": "55766",
+      "currency": "INR",
+      "timestamp": "2026-05-04T19:27:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN033",
+      "sender_account": "ACC013",
+      "receiver_account": "ACC009",
+      "amount": 55766,
+      "currency": "INR",
+      "timestamp": "2026-05-04T19:27:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN034",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN034",
+      "sender_account": "ACC014",
+      "receiver_account": "ACC012",
+      "amount": "43828",
+      "currency": "INR",
+      "timestamp": "2026-03-10T15:54:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN034",
+      "sender_account": "ACC014",
+      "receiver_account": "ACC012",
+      "amount": 43828,
+      "currency": "INR",
+      "timestamp": "2026-03-10T15:54:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN035",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN035",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC014",
+      "amount": "10679",
+      "currency": "INR",
+      "timestamp": "2026-03-13T19:15:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN035",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC014",
+      "amount": 10679,
+      "currency": "INR",
+      "timestamp": "2026-03-13T19:15:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN036",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN036",
+      "sender_account": "ACC013",
+      "receiver_account": "ACC008",
+      "amount": "42345",
+      "currency": "INR",
+      "timestamp": "2026-06-06T17:21:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN036",
+      "sender_account": "ACC013",
+      "receiver_account": "ACC008",
+      "amount": 42345,
+      "currency": "INR",
+      "timestamp": "2026-06-06T17:21:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN037",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN037",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC008",
+      "amount": "26300",
+      "currency": "INR",
+      "timestamp": "2026-02-16T20:13:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN037",
+      "sender_account": "ACC001",
+      "receiver_account": "ACC008",
+      "amount": 26300,
+      "currency": "INR",
+      "timestamp": "2026-02-16T20:13:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN038",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN038",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC013",
+      "amount": "21931",
+      "currency": "INR",
+      "timestamp": "2026-03-29T13:56:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN038",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC013",
+      "amount": 21931,
+      "currency": "INR",
+      "timestamp": "2026-03-29T13:56:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN039",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN039",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC012",
+      "amount": "23105",
+      "currency": "INR",
+      "timestamp": "2026-05-23T05:33:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN039",
+      "sender_account": "ACC010",
+      "receiver_account": "ACC012",
+      "amount": 23105,
+      "currency": "INR",
+      "timestamp": "2026-05-23T05:33:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN040",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN040",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC002",
+      "amount": "20817",
+      "currency": "INR",
+      "timestamp": "2026-07-04T18:31:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN040",
+      "sender_account": "ACC004",
+      "receiver_account": "ACC002",
+      "amount": 20817,
+      "currency": "INR",
+      "timestamp": "2026-07-04T18:31:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN041",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN041",
+      "sender_account": "ACC009",
+      "receiver_account": "ACC013",
+      "amount": "20749",
+      "currency": "INR",
+      "timestamp": "2026-06-26T20:41:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN041",
+      "sender_account": "ACC009",
+      "receiver_account": "ACC013",
+      "amount": 20749,
+      "currency": "INR",
+      "timestamp": "2026-06-26T20:41:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN042",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN042",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC008",
+      "amount": "34371",
+      "currency": "INR",
+      "timestamp": "2026-07-22T05:05:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN042",
+      "sender_account": "ACC012",
+      "receiver_account": "ACC008",
+      "amount": 34371,
+      "currency": "INR",
+      "timestamp": "2026-07-22T05:05:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN043",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN043",
+      "sender_account": "ACC005",
+      "receiver_account": "ACC004",
+      "amount": "31502",
+      "currency": "INR",
+      "timestamp": "2026-06-27T12:19:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN043",
+      "sender_account": "ACC005",
+      "receiver_account": "ACC004",
+      "amount": 31502,
+      "currency": "INR",
+      "timestamp": "2026-06-27T12:19:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN044",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN044",
+      "sender_account": "ACC011",
+      "receiver_account": "ACC010",
+      "amount": "29184",
+      "currency": "INR",
+      "timestamp": "2026-05-02T22:33:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN044",
+      "sender_account": "ACC011",
+      "receiver_account": "ACC010",
+      "amount": 29184,
+      "currency": "INR",
+      "timestamp": "2026-05-02T22:33:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "TXN045",
+    "source_type": "TRANSACTION",
+    "upload_id": "upl_795718cb",
+    "original": {
+      "transaction_id": "TXN045",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC007",
+      "amount": "53885",
+      "currency": "INR",
+      "timestamp": "2026-05-21T15:22:00Z"
+    },
+    "normalized": {
+      "transaction_id": "TXN045",
+      "sender_account": "ACC006",
+      "receiver_account": "ACC007",
+      "amount": 53885,
+      "currency": "INR",
+      "timestamp": "2026-05-21T15:22:00Z"
+    },
+    "provenance": {
+      "source_file": "transactions.csv",
+      "dataset_type": "TRANSACTION",
+      "ingested_at": "2026-09-12T17:27:49Z",
+      "status": "PROCESSED"
+    }
+  }
+]

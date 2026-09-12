@@ -2,10 +2,9 @@
 
 Mirrors DATABASE_SCHEMA.md §3 (documents) for local development and tests:
 id, type, filename, source, uploaded_by, uploaded_at, status, file_hash,
-metadata (JSON). Production PostgreSQL wiring (with the users FK, CITEXT
-email, and hash-chain audit_logs) lands with later phases; this store keeps
-the same columns, status vocabulary (UPLOADED | VALIDATING | PROCESSING |
-PROCESSED | FAILED), and append-oriented discipline so the swap is mechanical.
+metadata (JSON). The users table carries Phase 6 auth, and audit_logs is
+the tamper-evident SHA-256 hash chain (PROJECT_SPEC.md §17); production
+PostgreSQL wiring (with the users FK and CITEXT email) stays mechanical.
 
 - All SQL is parameterized; no caller input ever touches a query string.
 - Multi-row mutations commit atomically; callers must treat an exception as
@@ -119,6 +118,18 @@ CREATE TABLE IF NOT EXISTS users (
   updated_at TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_users_role ON users(role);
+CREATE TABLE IF NOT EXISTS audit_logs (
+  id TEXT PRIMARY KEY,
+  created_at TEXT NOT NULL,
+  actor TEXT NOT NULL,
+  action TEXT NOT NULL,
+  target TEXT NOT NULL DEFAULT '',
+  input_hash TEXT NOT NULL DEFAULT '',
+  output_hash TEXT NOT NULL DEFAULT '',
+  prev_hash TEXT NOT NULL,
+  hash TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_audit_created ON audit_logs(created_at);
 """
 
 
@@ -427,3 +438,34 @@ class DocumentStore:
         with self._session() as conn:
             conn.execute("UPDATE users SET role = ? WHERE id = ?",
                          (role, user_id))
+
+    # -- audit log (tamper-evident hash chain; PROJECT_SPEC.md §17) --------
+    def append_audit(self, entry: dict) -> None:
+        with self._session() as conn:
+            conn.execute(
+                "INSERT INTO audit_logs (id, created_at, actor, action, "
+                "target, input_hash, output_hash, prev_hash, hash) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                (entry["id"], entry["created_at"], entry["actor"],
+                 entry["action"], entry.get("target", ""),
+                 entry.get("input_hash", ""), entry.get("output_hash", ""),
+                 entry["prev_hash"], entry["hash"]),
+            )
+
+    def latest_audit_hash(self) -> str:
+        with self._session() as conn:
+            row = conn.execute("SELECT hash FROM audit_logs ORDER BY "
+                               "rowid DESC LIMIT 1").fetchone()
+        return row["hash"] if row else "GENESIS"
+
+    def list_audit(self, limit: int = 200) -> list[dict]:
+        with self._session() as conn:
+            rows = conn.execute("SELECT * FROM audit_logs ORDER BY rowid ASC "
+                                "LIMIT ?", (limit,)).fetchall()
+        return [dict(row) for row in rows]
+
+    def count_audit(self) -> int:
+        with self._session() as conn:
+            row = conn.execute("SELECT COUNT(*) AS n FROM audit_logs"
+                               ).fetchone()
+        return int(row["n"])

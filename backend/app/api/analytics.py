@@ -19,7 +19,8 @@ from ..services import analytics as analytics_mod
 from ..services import graph_queries as queries
 from ..services import scoring as scoring_mod
 from ..services import auth as auth_svc
-from ..services.validation import IngestionError
+from ..services import audit as audit_mod
+from ..services.validation import ID_RE, IngestionError
 from .deps import (
     error_response,
     get_graph_service,
@@ -36,7 +37,8 @@ DISCLAIMER = "Analytical signal only — not evidence of guilt."
 EVENT_TYPES = {"CALLED": "CALL", "MET": "MEETING",
                "TRANSFERRED_TO": "TRANSACTION", "LOCATED_AT": "LOCATION",
                "TRAVELLED_TO": "TRAVEL", "MENTIONED_IN": "FIR",
-               "USED": "VEHICLE", "OWNS": "VEHICLE"}
+               "USED": "VEHICLE", "OWNS": "VEHICLE",
+               "ASSOCIATED_WITH": "ASSOCIATION", "WORKS_FOR": "EMPLOYMENT"}
 
 
 def _not_found(entity_id: str) -> JSONResponse:
@@ -61,6 +63,10 @@ def _paginate(items: list, page: int, page_size: int) -> dict:
 def _records_for_run(store, upload_id: str | None) -> list[tuple[str, list]]:
     """Load processed records for one upload, or every PROCESSED upload."""
     if upload_id is not None:
+        if not ID_RE.match(upload_id):
+            raise IngestionError("INVALID_ID",
+                                 f"Malformed upload_id: {upload_id}.",
+                                 http_status=400)
         document = store.get_document(upload_id)
         if document is None:
             raise IngestionError("UPLOAD_NOT_FOUND",
@@ -86,8 +92,13 @@ def _records_for_run(store, upload_id: str | None) -> list[tuple[str, list]]:
         path = os.path.join(processed_dir(), uid, "records.json")
         if not os.path.isfile(path):
             continue
-        with open(path, encoding="utf-8") as fh:
-            record_files.append((uid, json.load(fh)))
+        try:
+            with open(path, encoding="utf-8") as fh:
+                record_files.append((uid, json.load(fh)))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise IngestionError("PROCESSING_FAILED",
+                                 f"Processed output is unreadable: {uid}.",
+                                 http_status=500) from exc
     if not record_files:
         raise IngestionError("NO_PROCESSED_DATA",
                              "No processed records available for scoring.",
@@ -116,6 +127,10 @@ def run(body: dict | None = None,
         summary = analytics_mod.run_analytics(store, nodes, edges,
                                               record_files)
         summary["graph_truncated"] = snapshot["truncated"]
+        audit_mod.record(store, actor=user.get("email", user["id"]),
+                         action="analytics.run",
+                         target=upload_id or "all",
+                         output_hash=audit_mod.digest(summary["run_id"]))
     except IngestionError as exc:
         return error_response(exc)
     summary["disclaimer"] = DISCLAIMER
@@ -269,7 +284,7 @@ def get_investigation(entity_id: str,
                       user: dict = Depends(auth_svc.require_user)):
     """API_SPEC.md §9 summary: priority, metrics, anomaly, explanations,
     timeline reference, key relationships, sources."""
-    if len(entity_id) > 64:
+    if not ID_RE.match(entity_id):
         return JSONResponse(
             status_code=400,
             content={"success": False,

@@ -405,6 +405,7 @@ Formula fixed per `PROJECT_SPEC.md` §9. The four forbidden framings must never 
 | investigation report | ✓ | ✓ | ✓ |
 | trigger analytics refresh | — | ✓ | ✓ |
 | user management | — | — | ✓ |
+| audit verify/entries (read-only) | ✓ | ✓ | ✓ |
 
 - All endpoints protected except `POST /api/auth/login`, `GET /api/health`. Authz enforced server-side on every request; frontend roles are display-only.
 - Auth errors: `401 UNAUTHENTICATED` (missing/expired token), `403 FORBIDDEN` (valid token, insufficient role). No redirect-to-login for API; JSON envelope always.
@@ -568,3 +569,22 @@ Required test matrix (backend + contract tests):
 6. Update affected implementation.
 
 Never silently change an API contract. Prefer additive changes (new optional fields/endpoints) over breaking ones.
+
+---
+
+## 21. AUDIT TRAIL
+
+Tamper-evident SHA-256 hash chain (PROJECT_SPEC.md §17). Every entry stores
+`SHA-256(prev_hash || canonical_event_payload)` with actor, action,
+timestamp and input/output hashes. Verification recomputes the chain; any
+edit, deletion or reorder fails loudly. This proves local tampering only —
+never claim blockchain equivalence.
+
+Events are appended on: `auth.login`, `users.create`, `users.set_role`,
+`ingest.upload`, `ingest.process`, `graph.build`, `analytics.run`.
+Entries carry hashes and IDs only — never passwords, tokens or secrets.
+
+- `GET /api/audit/verify` (any authenticated role) →
+  `200 {verified, count, head_hash, broken_at}`.
+- `GET /api/audit/entries?page=&page_size=` (any authenticated role,
+  `page_size` ≤ 200, oldest first) → items + pagination envelope.

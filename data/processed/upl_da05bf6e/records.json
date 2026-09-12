@@ -1,0 +1,2002 @@
+[
+  {
+    "source_id": "CDR_001",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_001",
+      "caller": "+919686579303",
+      "receiver": "+919026855092",
+      "timestamp": "2026-07-03T22:26:00Z",
+      "duration": "255"
+    },
+    "normalized": {
+      "cdr_id": "CDR_001",
+      "caller": "+919686579303",
+      "receiver": "+919026855092",
+      "timestamp": "2026-07-03T22:26:00Z",
+      "duration": 255
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_002",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_002",
+      "caller": "+919119540831",
+      "receiver": "+919295310485",
+      "timestamp": "2026-07-27T05:48:00Z",
+      "duration": "855"
+    },
+    "normalized": {
+      "cdr_id": "CDR_002",
+      "caller": "+919119540831",
+      "receiver": "+919295310485",
+      "timestamp": "2026-07-27T05:48:00Z",
+      "duration": 855
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_003",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_003",
+      "caller": "+919686579303",
+      "receiver": "+919262950628",
+      "timestamp": "2026-03-29T13:09:00Z",
+      "duration": "250"
+    },
+    "normalized": {
+      "cdr_id": "CDR_003",
+      "caller": "+919686579303",
+      "receiver": "+919262950628",
+      "timestamp": "2026-03-29T13:09:00Z",
+      "duration": 250
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_004",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_004",
+      "caller": "+919119540831",
+      "receiver": "+919239670711",
+      "timestamp": "2026-01-24T17:06:00Z",
+      "duration": "397"
+    },
+    "normalized": {
+      "cdr_id": "CDR_004",
+      "caller": "+919119540831",
+      "receiver": "+919239670711",
+      "timestamp": "2026-01-24T17:06:00Z",
+      "duration": 397
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_005",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_005",
+      "caller": "+919119540831",
+      "receiver": "+919149827706",
+      "timestamp": "2026-07-26T06:46:00Z",
+      "duration": "500"
+    },
+    "normalized": {
+      "cdr_id": "CDR_005",
+      "caller": "+919119540831",
+      "receiver": "+919149827706",
+      "timestamp": "2026-07-26T06:46:00Z",
+      "duration": 500
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_006",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_006",
+      "caller": "+919686579303",
+      "receiver": "+919790779946",
+      "timestamp": "2026-01-21T22:18:00Z",
+      "duration": "879"
+    },
+    "normalized": {
+      "cdr_id": "CDR_006",
+      "caller": "+919686579303",
+      "receiver": "+919790779946",
+      "timestamp": "2026-01-21T22:18:00Z",
+      "duration": 879
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_007",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_007",
+      "caller": "+919119540831",
+      "receiver": "+919110053353",
+      "timestamp": "2026-06-30T07:02:00Z",
+      "duration": "707"
+    },
+    "normalized": {
+      "cdr_id": "CDR_007",
+      "caller": "+919119540831",
+      "receiver": "+919110053353",
+      "timestamp": "2026-06-30T07:02:00Z",
+      "duration": 707
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_008",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_008",
+      "caller": "+919686579303",
+      "receiver": "+919726600539",
+      "timestamp": "2026-01-21T12:55:00Z",
+      "duration": "133"
+    },
+    "normalized": {
+      "cdr_id": "CDR_008",
+      "caller": "+919686579303",
+      "receiver": "+919726600539",
+      "timestamp": "2026-01-21T12:55:00Z",
+      "duration": 133
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_009",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_009",
+      "caller": "+919119540831",
+      "receiver": "+919110053353",
+      "timestamp": "2026-04-27T16:10:00Z",
+      "duration": "409"
+    },
+    "normalized": {
+      "cdr_id": "CDR_009",
+      "caller": "+919119540831",
+      "receiver": "+919110053353",
+      "timestamp": "2026-04-27T16:10:00Z",
+      "duration": 409
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_010",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_010",
+      "caller": "+919119540831",
+      "receiver": "+919726600539",
+      "timestamp": "2026-06-21T13:44:00Z",
+      "duration": "729"
+    },
+    "normalized": {
+      "cdr_id": "CDR_010",
+      "caller": "+919119540831",
+      "receiver": "+919726600539",
+      "timestamp": "2026-06-21T13:44:00Z",
+      "duration": 729
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_011",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_011",
+      "caller": "+919686579303",
+      "receiver": "+919795285932",
+      "timestamp": "2026-05-17T12:10:00Z",
+      "duration": "503"
+    },
+    "normalized": {
+      "cdr_id": "CDR_011",
+      "caller": "+919686579303",
+      "receiver": "+919795285932",
+      "timestamp": "2026-05-17T12:10:00Z",
+      "duration": 503
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_012",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_012",
+      "caller": "+919119540831",
+      "receiver": "+919957970516",
+      "timestamp": "2026-08-25T22:14:00Z",
+      "duration": "731"
+    },
+    "normalized": {
+      "cdr_id": "CDR_012",
+      "caller": "+919119540831",
+      "receiver": "+919957970516",
+      "timestamp": "2026-08-25T22:14:00Z",
+      "duration": 731
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_013",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_013",
+      "caller": "+919119540831",
+      "receiver": "+919585582861",
+      "timestamp": "2026-02-28T06:51:00Z",
+      "duration": "353"
+    },
+    "normalized": {
+      "cdr_id": "CDR_013",
+      "caller": "+919119540831",
+      "receiver": "+919585582861",
+      "timestamp": "2026-02-28T06:51:00Z",
+      "duration": 353
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_014",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_014",
+      "caller": "+919119540831",
+      "receiver": "+919093349856",
+      "timestamp": "2026-01-17T11:58:00Z",
+      "duration": "610"
+    },
+    "normalized": {
+      "cdr_id": "CDR_014",
+      "caller": "+919119540831",
+      "receiver": "+919093349856",
+      "timestamp": "2026-01-17T11:58:00Z",
+      "duration": 610
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_015",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_015",
+      "caller": "+919119540831",
+      "receiver": "+919634036506",
+      "timestamp": "2026-06-17T20:25:00Z",
+      "duration": "688"
+    },
+    "normalized": {
+      "cdr_id": "CDR_015",
+      "caller": "+919119540831",
+      "receiver": "+919634036506",
+      "timestamp": "2026-06-17T20:25:00Z",
+      "duration": 688
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_016",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_016",
+      "caller": "+919119540831",
+      "receiver": "+919026855092",
+      "timestamp": "2026-03-09T09:15:00Z",
+      "duration": "792"
+    },
+    "normalized": {
+      "cdr_id": "CDR_016",
+      "caller": "+919119540831",
+      "receiver": "+919026855092",
+      "timestamp": "2026-03-09T09:15:00Z",
+      "duration": 792
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_017",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_017",
+      "caller": "+919295310485",
+      "receiver": "+919119540831",
+      "timestamp": "2026-08-18T04:25:00Z",
+      "duration": "400"
+    },
+    "normalized": {
+      "cdr_id": "CDR_017",
+      "caller": "+919295310485",
+      "receiver": "+919119540831",
+      "timestamp": "2026-08-18T04:25:00Z",
+      "duration": 400
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_018",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_018",
+      "caller": "+919796233790",
+      "receiver": "+919026855092",
+      "timestamp": "2026-05-11T20:05:00Z",
+      "duration": "803"
+    },
+    "normalized": {
+      "cdr_id": "CDR_018",
+      "caller": "+919796233790",
+      "receiver": "+919026855092",
+      "timestamp": "2026-05-11T20:05:00Z",
+      "duration": 803
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_019",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_019",
+      "caller": "+919796233790",
+      "receiver": "+919262950628",
+      "timestamp": "2026-02-09T10:50:00Z",
+      "duration": "726"
+    },
+    "normalized": {
+      "cdr_id": "CDR_019",
+      "caller": "+919796233790",
+      "receiver": "+919262950628",
+      "timestamp": "2026-02-09T10:50:00Z",
+      "duration": 726
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_020",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_020",
+      "caller": "+919295310485",
+      "receiver": "+919239670711",
+      "timestamp": "2026-04-09T03:38:00Z",
+      "duration": "509"
+    },
+    "normalized": {
+      "cdr_id": "CDR_020",
+      "caller": "+919295310485",
+      "receiver": "+919239670711",
+      "timestamp": "2026-04-09T03:38:00Z",
+      "duration": 509
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_021",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_021",
+      "caller": "+919295310485",
+      "receiver": "+919149827706",
+      "timestamp": "2026-06-24T08:43:00Z",
+      "duration": "579"
+    },
+    "normalized": {
+      "cdr_id": "CDR_021",
+      "caller": "+919295310485",
+      "receiver": "+919149827706",
+      "timestamp": "2026-06-24T08:43:00Z",
+      "duration": 579
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_022",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_022",
+      "caller": "+919295310485",
+      "receiver": "+919790779946",
+      "timestamp": "2026-01-29T14:27:00Z",
+      "duration": "191"
+    },
+    "normalized": {
+      "cdr_id": "CDR_022",
+      "caller": "+919295310485",
+      "receiver": "+919790779946",
+      "timestamp": "2026-01-29T14:27:00Z",
+      "duration": 191
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_023",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_023",
+      "caller": "+919295310485",
+      "receiver": "+919110053353",
+      "timestamp": "2026-07-04T02:32:00Z",
+      "duration": "810"
+    },
+    "normalized": {
+      "cdr_id": "CDR_023",
+      "caller": "+919295310485",
+      "receiver": "+919110053353",
+      "timestamp": "2026-07-04T02:32:00Z",
+      "duration": 810
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_024",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_024",
+      "caller": "+919796233790",
+      "receiver": "+919726600539",
+      "timestamp": "2026-08-11T14:53:00Z",
+      "duration": "684"
+    },
+    "normalized": {
+      "cdr_id": "CDR_024",
+      "caller": "+919796233790",
+      "receiver": "+919726600539",
+      "timestamp": "2026-08-11T14:53:00Z",
+      "duration": 684
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_025",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_025",
+      "caller": "+919796233790",
+      "receiver": "+919795285932",
+      "timestamp": "2026-04-06T10:34:00Z",
+      "duration": "827"
+    },
+    "normalized": {
+      "cdr_id": "CDR_025",
+      "caller": "+919796233790",
+      "receiver": "+919795285932",
+      "timestamp": "2026-04-06T10:34:00Z",
+      "duration": 827
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_026",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_026",
+      "caller": "+919796233790",
+      "receiver": "+919957970516",
+      "timestamp": "2026-05-06T00:07:00Z",
+      "duration": "401"
+    },
+    "normalized": {
+      "cdr_id": "CDR_026",
+      "caller": "+919796233790",
+      "receiver": "+919957970516",
+      "timestamp": "2026-05-06T00:07:00Z",
+      "duration": 401
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_027",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_027",
+      "caller": "+919295310485",
+      "receiver": "+919585582861",
+      "timestamp": "2026-01-15T12:56:00Z",
+      "duration": "610"
+    },
+    "normalized": {
+      "cdr_id": "CDR_027",
+      "caller": "+919295310485",
+      "receiver": "+919585582861",
+      "timestamp": "2026-01-15T12:56:00Z",
+      "duration": 610
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_028",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_028",
+      "caller": "+919796233790",
+      "receiver": "+919093349856",
+      "timestamp": "2026-07-07T20:52:00Z",
+      "duration": "100"
+    },
+    "normalized": {
+      "cdr_id": "CDR_028",
+      "caller": "+919796233790",
+      "receiver": "+919093349856",
+      "timestamp": "2026-07-07T20:52:00Z",
+      "duration": 100
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_029",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_029",
+      "caller": "+919796233790",
+      "receiver": "+919634036506",
+      "timestamp": "2026-06-18T03:35:00Z",
+      "duration": "199"
+    },
+    "normalized": {
+      "cdr_id": "CDR_029",
+      "caller": "+919796233790",
+      "receiver": "+919634036506",
+      "timestamp": "2026-06-18T03:35:00Z",
+      "duration": 199
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_030",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_030",
+      "caller": "+919295310485",
+      "receiver": "+919453035110",
+      "timestamp": "2026-02-24T22:48:00Z",
+      "duration": "777"
+    },
+    "normalized": {
+      "cdr_id": "CDR_030",
+      "caller": "+919295310485",
+      "receiver": "+919453035110",
+      "timestamp": "2026-02-24T22:48:00Z",
+      "duration": 777
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_031",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_031",
+      "caller": "+919796233790",
+      "receiver": "+919034126396",
+      "timestamp": "2026-04-13T16:28:00Z",
+      "duration": "559"
+    },
+    "normalized": {
+      "cdr_id": "CDR_031",
+      "caller": "+919796233790",
+      "receiver": "+919034126396",
+      "timestamp": "2026-04-13T16:28:00Z",
+      "duration": 559
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_032",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_032",
+      "caller": "+919295310485",
+      "receiver": "+919031994523",
+      "timestamp": "2026-03-05T01:04:00Z",
+      "duration": "376"
+    },
+    "normalized": {
+      "cdr_id": "CDR_032",
+      "caller": "+919295310485",
+      "receiver": "+919031994523",
+      "timestamp": "2026-03-05T01:04:00Z",
+      "duration": 376
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_033",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_033",
+      "caller": "+919796233790",
+      "receiver": "+919100604502",
+      "timestamp": "2026-05-31T12:00:00Z",
+      "duration": "102"
+    },
+    "normalized": {
+      "cdr_id": "CDR_033",
+      "caller": "+919796233790",
+      "receiver": "+919100604502",
+      "timestamp": "2026-05-31T12:00:00Z",
+      "duration": 102
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_034",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_034",
+      "caller": "+919796233790",
+      "receiver": "+919234760738",
+      "timestamp": "2026-01-18T06:55:00Z",
+      "duration": "368"
+    },
+    "normalized": {
+      "cdr_id": "CDR_034",
+      "caller": "+919796233790",
+      "receiver": "+919234760738",
+      "timestamp": "2026-01-18T06:55:00Z",
+      "duration": 368
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_035",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_035",
+      "caller": "+919796233790",
+      "receiver": "+919249817734",
+      "timestamp": "2026-03-13T03:13:00Z",
+      "duration": "582"
+    },
+    "normalized": {
+      "cdr_id": "CDR_035",
+      "caller": "+919796233790",
+      "receiver": "+919249817734",
+      "timestamp": "2026-03-13T03:13:00Z",
+      "duration": 582
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_036",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_036",
+      "caller": "+919796233790",
+      "receiver": "+919119540831",
+      "timestamp": "2026-03-04T20:51:00Z",
+      "duration": "446"
+    },
+    "normalized": {
+      "cdr_id": "CDR_036",
+      "caller": "+919796233790",
+      "receiver": "+919119540831",
+      "timestamp": "2026-03-04T20:51:00Z",
+      "duration": 446
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_037",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_037",
+      "caller": "+919796233790",
+      "receiver": "+919026855092",
+      "timestamp": "2026-01-25T18:22:00Z",
+      "duration": "463"
+    },
+    "normalized": {
+      "cdr_id": "CDR_037",
+      "caller": "+919796233790",
+      "receiver": "+919026855092",
+      "timestamp": "2026-01-25T18:22:00Z",
+      "duration": 463
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_038",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_038",
+      "caller": "+919295310485",
+      "receiver": "+919262950628",
+      "timestamp": "2026-08-10T00:43:00Z",
+      "duration": "699"
+    },
+    "normalized": {
+      "cdr_id": "CDR_038",
+      "caller": "+919295310485",
+      "receiver": "+919262950628",
+      "timestamp": "2026-08-10T00:43:00Z",
+      "duration": 699
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_039",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_039",
+      "caller": "+919796233790",
+      "receiver": "+919239670711",
+      "timestamp": "2026-04-14T15:51:00Z",
+      "duration": "141"
+    },
+    "normalized": {
+      "cdr_id": "CDR_039",
+      "caller": "+919796233790",
+      "receiver": "+919239670711",
+      "timestamp": "2026-04-14T15:51:00Z",
+      "duration": 141
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_040",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_040",
+      "caller": "+919796233790",
+      "receiver": "+919149827706",
+      "timestamp": "2026-02-18T22:28:00Z",
+      "duration": "173"
+    },
+    "normalized": {
+      "cdr_id": "CDR_040",
+      "caller": "+919796233790",
+      "receiver": "+919149827706",
+      "timestamp": "2026-02-18T22:28:00Z",
+      "duration": 173
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_041",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_041",
+      "caller": "+919790779946",
+      "receiver": "+919026855092",
+      "timestamp": "2026-03-13T19:15:00Z",
+      "duration": "107"
+    },
+    "normalized": {
+      "cdr_id": "CDR_041",
+      "caller": "+919790779946",
+      "receiver": "+919026855092",
+      "timestamp": "2026-03-13T19:15:00Z",
+      "duration": 107
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_042",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_042",
+      "caller": "+919026855092",
+      "receiver": "+919790779946",
+      "timestamp": "2026-01-13T22:53:00Z",
+      "duration": "45"
+    },
+    "normalized": {
+      "cdr_id": "CDR_042",
+      "caller": "+919026855092",
+      "receiver": "+919790779946",
+      "timestamp": "2026-01-13T22:53:00Z",
+      "duration": 45
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_043",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_043",
+      "caller": "+919790779946",
+      "receiver": "+919239670711",
+      "timestamp": "2026-02-12T18:31:00Z",
+      "duration": "522"
+    },
+    "normalized": {
+      "cdr_id": "CDR_043",
+      "caller": "+919790779946",
+      "receiver": "+919239670711",
+      "timestamp": "2026-02-12T18:31:00Z",
+      "duration": 522
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_044",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_044",
+      "caller": "+919239670711",
+      "receiver": "+919790779946",
+      "timestamp": "2026-08-20T06:10:00Z",
+      "duration": "418"
+    },
+    "normalized": {
+      "cdr_id": "CDR_044",
+      "caller": "+919239670711",
+      "receiver": "+919790779946",
+      "timestamp": "2026-08-20T06:10:00Z",
+      "duration": 418
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_045",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_045",
+      "caller": "+919790779946",
+      "receiver": "+919110053353",
+      "timestamp": "2026-03-09T19:18:00Z",
+      "duration": "463"
+    },
+    "normalized": {
+      "cdr_id": "CDR_045",
+      "caller": "+919790779946",
+      "receiver": "+919110053353",
+      "timestamp": "2026-03-09T19:18:00Z",
+      "duration": 463
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_046",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_046",
+      "caller": "+919110053353",
+      "receiver": "+919790779946",
+      "timestamp": "2026-02-18T14:13:00Z",
+      "duration": "89"
+    },
+    "normalized": {
+      "cdr_id": "CDR_046",
+      "caller": "+919110053353",
+      "receiver": "+919790779946",
+      "timestamp": "2026-02-18T14:13:00Z",
+      "duration": 89
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_047",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_047",
+      "caller": "+919790779946",
+      "receiver": "+919795285932",
+      "timestamp": "2026-01-15T06:37:00Z",
+      "duration": "518"
+    },
+    "normalized": {
+      "cdr_id": "CDR_047",
+      "caller": "+919790779946",
+      "receiver": "+919795285932",
+      "timestamp": "2026-01-15T06:37:00Z",
+      "duration": 518
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_048",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_048",
+      "caller": "+919795285932",
+      "receiver": "+919790779946",
+      "timestamp": "2026-05-11T07:54:00Z",
+      "duration": "220"
+    },
+    "normalized": {
+      "cdr_id": "CDR_048",
+      "caller": "+919795285932",
+      "receiver": "+919790779946",
+      "timestamp": "2026-05-11T07:54:00Z",
+      "duration": 220
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_049",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_049",
+      "caller": "+919634036506",
+      "receiver": "+919726600539",
+      "timestamp": "2026-06-22T12:25:00Z",
+      "duration": "152"
+    },
+    "normalized": {
+      "cdr_id": "CDR_049",
+      "caller": "+919634036506",
+      "receiver": "+919726600539",
+      "timestamp": "2026-06-22T12:25:00Z",
+      "duration": 152
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_050",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_050",
+      "caller": "+919634036506",
+      "receiver": "+919585582861",
+      "timestamp": "2026-06-08T07:26:00Z",
+      "duration": "703"
+    },
+    "normalized": {
+      "cdr_id": "CDR_050",
+      "caller": "+919634036506",
+      "receiver": "+919585582861",
+      "timestamp": "2026-06-08T07:26:00Z",
+      "duration": 703
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_051",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_051",
+      "caller": "+919634036506",
+      "receiver": "+919453035110",
+      "timestamp": "2026-02-22T15:15:00Z",
+      "duration": "301"
+    },
+    "normalized": {
+      "cdr_id": "CDR_051",
+      "caller": "+919634036506",
+      "receiver": "+919453035110",
+      "timestamp": "2026-02-22T15:15:00Z",
+      "duration": 301
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_052",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_052",
+      "caller": "+919634036506",
+      "receiver": "+919031994523",
+      "timestamp": "2026-06-21T14:29:00Z",
+      "duration": "353"
+    },
+    "normalized": {
+      "cdr_id": "CDR_052",
+      "caller": "+919634036506",
+      "receiver": "+919031994523",
+      "timestamp": "2026-06-21T14:29:00Z",
+      "duration": 353
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_053",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_053",
+      "caller": "+919686579303",
+      "receiver": "+919262950628",
+      "timestamp": "2026-05-18T11:32:00Z",
+      "duration": "301"
+    },
+    "normalized": {
+      "cdr_id": "CDR_053",
+      "caller": "+919686579303",
+      "receiver": "+919262950628",
+      "timestamp": "2026-05-18T11:32:00Z",
+      "duration": 301
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_054",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_054",
+      "caller": "+919796233790",
+      "receiver": "+919119540831",
+      "timestamp": "2026-03-14T10:28:00Z",
+      "duration": "883"
+    },
+    "normalized": {
+      "cdr_id": "CDR_054",
+      "caller": "+919796233790",
+      "receiver": "+919119540831",
+      "timestamp": "2026-03-14T10:28:00Z",
+      "duration": 883
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_055",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_055",
+      "caller": "+919249817734",
+      "receiver": "+919031994523",
+      "timestamp": "2026-08-27T08:56:00Z",
+      "duration": "167"
+    },
+    "normalized": {
+      "cdr_id": "CDR_055",
+      "caller": "+919249817734",
+      "receiver": "+919031994523",
+      "timestamp": "2026-08-27T08:56:00Z",
+      "duration": 167
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_056",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_056",
+      "caller": "+919110053353",
+      "receiver": "+919634036506",
+      "timestamp": "2026-03-14T11:45:00Z",
+      "duration": "381"
+    },
+    "normalized": {
+      "cdr_id": "CDR_056",
+      "caller": "+919110053353",
+      "receiver": "+919634036506",
+      "timestamp": "2026-03-14T11:45:00Z",
+      "duration": 381
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_057",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_057",
+      "caller": "+919149827706",
+      "receiver": "+919790779946",
+      "timestamp": "2026-03-06T06:05:00Z",
+      "duration": "679"
+    },
+    "normalized": {
+      "cdr_id": "CDR_057",
+      "caller": "+919149827706",
+      "receiver": "+919790779946",
+      "timestamp": "2026-03-06T06:05:00Z",
+      "duration": 679
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_058",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_058",
+      "caller": "+919634036506",
+      "receiver": "+919795285932",
+      "timestamp": "2026-03-27T09:40:00Z",
+      "duration": "298"
+    },
+    "normalized": {
+      "cdr_id": "CDR_058",
+      "caller": "+919634036506",
+      "receiver": "+919795285932",
+      "timestamp": "2026-03-27T09:40:00Z",
+      "duration": 298
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_059",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_059",
+      "caller": "+919149827706",
+      "receiver": "+919262950628",
+      "timestamp": "2026-01-29T07:56:00Z",
+      "duration": "737"
+    },
+    "normalized": {
+      "cdr_id": "CDR_059",
+      "caller": "+919149827706",
+      "receiver": "+919262950628",
+      "timestamp": "2026-01-29T07:56:00Z",
+      "duration": 737
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_060",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_060",
+      "caller": "+919239670711",
+      "receiver": "+919686579303",
+      "timestamp": "2026-04-21T09:02:00Z",
+      "duration": "345"
+    },
+    "normalized": {
+      "cdr_id": "CDR_060",
+      "caller": "+919239670711",
+      "receiver": "+919686579303",
+      "timestamp": "2026-04-21T09:02:00Z",
+      "duration": 345
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_061",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_061",
+      "caller": "+919634036506",
+      "receiver": "+919110053353",
+      "timestamp": "2026-06-24T12:42:00Z",
+      "duration": "135"
+    },
+    "normalized": {
+      "cdr_id": "CDR_061",
+      "caller": "+919634036506",
+      "receiver": "+919110053353",
+      "timestamp": "2026-06-24T12:42:00Z",
+      "duration": 135
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_062",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_062",
+      "caller": "+919634036506",
+      "receiver": "+919585582861",
+      "timestamp": "2026-08-25T12:55:00Z",
+      "duration": "196"
+    },
+    "normalized": {
+      "cdr_id": "CDR_062",
+      "caller": "+919634036506",
+      "receiver": "+919585582861",
+      "timestamp": "2026-08-25T12:55:00Z",
+      "duration": 196
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_063",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_063",
+      "caller": "+919262950628",
+      "receiver": "+919119540831",
+      "timestamp": "2026-07-20T18:51:00Z",
+      "duration": "715"
+    },
+    "normalized": {
+      "cdr_id": "CDR_063",
+      "caller": "+919262950628",
+      "receiver": "+919119540831",
+      "timestamp": "2026-07-20T18:51:00Z",
+      "duration": 715
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_064",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_064",
+      "caller": "+919034126396",
+      "receiver": "+919031994523",
+      "timestamp": "2026-04-08T06:54:00Z",
+      "duration": "511"
+    },
+    "normalized": {
+      "cdr_id": "CDR_064",
+      "caller": "+919034126396",
+      "receiver": "+919031994523",
+      "timestamp": "2026-04-08T06:54:00Z",
+      "duration": 511
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_065",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_065",
+      "caller": "+919026855092",
+      "receiver": "+919262950628",
+      "timestamp": "2026-07-30T12:14:00Z",
+      "duration": "54"
+    },
+    "normalized": {
+      "cdr_id": "CDR_065",
+      "caller": "+919026855092",
+      "receiver": "+919262950628",
+      "timestamp": "2026-07-30T12:14:00Z",
+      "duration": 54
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_066",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_066",
+      "caller": "+919034126396",
+      "receiver": "+919100604502",
+      "timestamp": "2026-08-10T07:49:00Z",
+      "duration": "315"
+    },
+    "normalized": {
+      "cdr_id": "CDR_066",
+      "caller": "+919034126396",
+      "receiver": "+919100604502",
+      "timestamp": "2026-08-10T07:49:00Z",
+      "duration": 315
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_067",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_067",
+      "caller": "+919093349856",
+      "receiver": "+919585582861",
+      "timestamp": "2026-08-29T05:07:00Z",
+      "duration": "297"
+    },
+    "normalized": {
+      "cdr_id": "CDR_067",
+      "caller": "+919093349856",
+      "receiver": "+919585582861",
+      "timestamp": "2026-08-29T05:07:00Z",
+      "duration": 297
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_068",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_068",
+      "caller": "+919239670711",
+      "receiver": "+919796233790",
+      "timestamp": "2026-06-02T18:22:00Z",
+      "duration": "776"
+    },
+    "normalized": {
+      "cdr_id": "CDR_068",
+      "caller": "+919239670711",
+      "receiver": "+919796233790",
+      "timestamp": "2026-06-02T18:22:00Z",
+      "duration": 776
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_069",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_069",
+      "caller": "+919957970516",
+      "receiver": "+919585582861",
+      "timestamp": "2026-08-19T23:12:00Z",
+      "duration": "290"
+    },
+    "normalized": {
+      "cdr_id": "CDR_069",
+      "caller": "+919957970516",
+      "receiver": "+919585582861",
+      "timestamp": "2026-08-19T23:12:00Z",
+      "duration": 290
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_070",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_070",
+      "caller": "+919149827706",
+      "receiver": "+919262950628",
+      "timestamp": "2026-04-04T18:04:00Z",
+      "duration": "710"
+    },
+    "normalized": {
+      "cdr_id": "CDR_070",
+      "caller": "+919149827706",
+      "receiver": "+919262950628",
+      "timestamp": "2026-04-04T18:04:00Z",
+      "duration": 710
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_071",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_071",
+      "caller": "+919585582861",
+      "receiver": "+919795285932",
+      "timestamp": "2026-05-10T14:42:00Z",
+      "duration": "448"
+    },
+    "normalized": {
+      "cdr_id": "CDR_071",
+      "caller": "+919585582861",
+      "receiver": "+919795285932",
+      "timestamp": "2026-05-10T14:42:00Z",
+      "duration": 448
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_072",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_072",
+      "caller": "+919957970516",
+      "receiver": "+919093349856",
+      "timestamp": "2026-02-19T18:42:00Z",
+      "duration": "418"
+    },
+    "normalized": {
+      "cdr_id": "CDR_072",
+      "caller": "+919957970516",
+      "receiver": "+919093349856",
+      "timestamp": "2026-02-19T18:42:00Z",
+      "duration": 418
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_073",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_073",
+      "caller": "+919249817734",
+      "receiver": "+919034126396",
+      "timestamp": "2026-05-21T05:19:00Z",
+      "duration": "323"
+    },
+    "normalized": {
+      "cdr_id": "CDR_073",
+      "caller": "+919249817734",
+      "receiver": "+919034126396",
+      "timestamp": "2026-05-21T05:19:00Z",
+      "duration": 323
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_074",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_074",
+      "caller": "+919262950628",
+      "receiver": "+919239670711",
+      "timestamp": "2026-04-24T19:43:00Z",
+      "duration": "248"
+    },
+    "normalized": {
+      "cdr_id": "CDR_074",
+      "caller": "+919262950628",
+      "receiver": "+919239670711",
+      "timestamp": "2026-04-24T19:43:00Z",
+      "duration": 248
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_075",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_075",
+      "caller": "+919100604502",
+      "receiver": "+919034126396",
+      "timestamp": "2026-05-12T15:05:00Z",
+      "duration": "868"
+    },
+    "normalized": {
+      "cdr_id": "CDR_075",
+      "caller": "+919100604502",
+      "receiver": "+919034126396",
+      "timestamp": "2026-05-12T15:05:00Z",
+      "duration": 868
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_076",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_076",
+      "caller": "+919149827706",
+      "receiver": "+919796233790",
+      "timestamp": "2026-02-07T05:02:00Z",
+      "duration": "280"
+    },
+    "normalized": {
+      "cdr_id": "CDR_076",
+      "caller": "+919149827706",
+      "receiver": "+919796233790",
+      "timestamp": "2026-02-07T05:02:00Z",
+      "duration": 280
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_077",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_077",
+      "caller": "+919585582861",
+      "receiver": "+919110053353",
+      "timestamp": "2026-08-15T23:12:00Z",
+      "duration": "765"
+    },
+    "normalized": {
+      "cdr_id": "CDR_077",
+      "caller": "+919585582861",
+      "receiver": "+919110053353",
+      "timestamp": "2026-08-15T23:12:00Z",
+      "duration": 765
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_078",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_078",
+      "caller": "+919100604502",
+      "receiver": "+919249817734",
+      "timestamp": "2026-02-07T05:57:00Z",
+      "duration": "798"
+    },
+    "normalized": {
+      "cdr_id": "CDR_078",
+      "caller": "+919100604502",
+      "receiver": "+919249817734",
+      "timestamp": "2026-02-07T05:57:00Z",
+      "duration": 798
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_079",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_079",
+      "caller": "+919790779946",
+      "receiver": "+919262950628",
+      "timestamp": "2026-07-25T21:29:00Z",
+      "duration": "81"
+    },
+    "normalized": {
+      "cdr_id": "CDR_079",
+      "caller": "+919790779946",
+      "receiver": "+919262950628",
+      "timestamp": "2026-07-25T21:29:00Z",
+      "duration": 81
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "CDR_080",
+    "source_type": "CDR",
+    "upload_id": "upl_da05bf6e",
+    "original": {
+      "cdr_id": "CDR_080",
+      "caller": "+919034126396",
+      "receiver": "+919453035110",
+      "timestamp": "2026-07-25T19:42:00Z",
+      "duration": "573"
+    },
+    "normalized": {
+      "cdr_id": "CDR_080",
+      "caller": "+919034126396",
+      "receiver": "+919453035110",
+      "timestamp": "2026-07-25T19:42:00Z",
+      "duration": 573
+    },
+    "provenance": {
+      "source_file": "cdr.csv",
+      "dataset_type": "CDR",
+      "ingested_at": "2026-09-12T17:27:45Z",
+      "status": "PROCESSED"
+    }
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "source_id": "vehicle_001",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_001",
+      "registration_number": "DL01AB1234",
+      "owner_name": "Rahul Sharma",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_001",
+      "registration_number": "DL01AB1234",
+      "owner_name": "Rahul Sharma",
+      "source": "SYNTHETIC",
+      "owner_normalized": "rahul sharma"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_002",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_002",
+      "registration_number": "MH02CD5678",
+      "owner_name": "Amit Kumar",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_002",
+      "registration_number": "MH02CD5678",
+      "owner_name": "Amit Kumar",
+      "source": "SYNTHETIC",
+      "owner_normalized": "amit kumar"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_003",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_003",
+      "registration_number": "DL03EF9012",
+      "owner_name": "Vikas S",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_003",
+      "registration_number": "DL03EF9012",
+      "owner_name": "Vikas S",
+      "source": "SYNTHETIC",
+      "owner_normalized": "vikas s"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_004",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_004",
+      "registration_number": "KA04GH3456",
+      "owner_name": "Sanjay Gupta",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_004",
+      "registration_number": "KA04GH3456",
+      "owner_name": "Sanjay Gupta",
+      "source": "SYNTHETIC",
+      "owner_normalized": "sanjay gupta"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_005",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_005",
+      "registration_number": "UP05IJ7890",
+      "owner_name": "Arjun Mehta",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_005",
+      "registration_number": "UP05IJ7890",
+      "owner_name": "Arjun Mehta",
+      "source": "SYNTHETIC",
+      "owner_normalized": "arjun mehta"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_006",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_006",
+      "registration_number": "MH06KL1234",
+      "owner_name": "Kavita Rao",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_006",
+      "registration_number": "MH06KL1234",
+      "owner_name": "Kavita Rao",
+      "source": "SYNTHETIC",
+      "owner_normalized": "kavita rao"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_007",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_007",
+      "registration_number": "DL07MN5678",
+      "owner_name": "M. Tiwari",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_007",
+      "registration_number": "DL07MN5678",
+      "owner_name": "M. Tiwari",
+      "source": "SYNTHETIC",
+      "owner_normalized": "m. tiwari"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_008",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_008",
+      "registration_number": "TN08OP9012",
+      "owner_name": "Deepak Yadav",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_008",
+      "registration_number": "TN08OP9012",
+      "owner_name": "Deepak Yadav",
+      "source": "SYNTHETIC",
+      "owner_normalized": "deepak yadav"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_009",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_009",
+      "registration_number": "DL09QR3456",
+      "owner_name": "Rahul Verma",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_009",
+      "registration_number": "DL09QR3456",
+      "owner_name": "Rahul Verma",
+      "source": "SYNTHETIC",
+      "owner_normalized": "rahul verma"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_010",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_010",
+      "registration_number": "KA10ST7890",
+      "owner_name": "Rohit Sharma",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_010",
+      "registration_number": "KA10ST7890",
+      "owner_name": "Rohit Sharma",
+      "source": "SYNTHETIC",
+      "owner_normalized": "rohit sharma"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_011",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_011",
+      "registration_number": "UP11UV1234",
+      "owner_name": "Sunita Devi",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_011",
+      "registration_number": "UP11UV1234",
+      "owner_name": "Sunita Devi",
+      "source": "SYNTHETIC",
+      "owner_normalized": "sunita devi"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_012",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_012",
+      "registration_number": "MH12WX5678",
+      "owner_name": "F. Khan",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_012",
+      "registration_number": "MH12WX5678",
+      "owner_name": "F. Khan",
+      "source": "SYNTHETIC",
+      "owner_normalized": "f. khan"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_013",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_013",
+      "registration_number": "DL13YZ9012",
+      "owner_name": "Geeta Patel",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_013",
+      "registration_number": "DL13YZ9012",
+      "owner_name": "Geeta Patel",
+      "source": "SYNTHETIC",
+      "owner_normalized": "geeta patel"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_014",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_014",
+      "registration_number": "KA14AB3456",
+      "owner_name": "P. Mishra",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_014",
+      "registration_number": "KA14AB3456",
+      "owner_name": "P. Mishra",
+      "source": "SYNTHETIC",
+      "owner_normalized": "p. mishra"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_015",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_015",
+      "registration_number": "TN15CD7890",
+      "owner_name": "Vikram Malhotra",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_015",
+      "registration_number": "TN15CD7890",
+      "owner_name": "Vikram Malhotra",
+      "source": "SYNTHETIC",
+      "owner_normalized": "vikram malhotra"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "vehicle_016",
+    "source_type": "VEHICLE",
+    "upload_id": "upl_d9b04777",
+    "original": {
+      "vehicle_id": "vehicle_016",
+      "registration_number": "DL16EF1234",
+      "owner_name": "Karan Bedi",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "vehicle_id": "vehicle_016",
+      "registration_number": "DL16EF1234",
+      "owner_name": "Karan Bedi",
+      "source": "SYNTHETIC",
+      "owner_normalized": "karan bedi"
+    },
+    "provenance": {
+      "source_file": "vehicles.csv",
+      "dataset_type": "VEHICLE",
+      "ingested_at": "2026-09-12T17:27:53Z",
+      "status": "PROCESSED"
+    }
+  }
+]

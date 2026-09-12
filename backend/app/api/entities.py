@@ -87,8 +87,13 @@ def extract(body: ExtractRequest,
                 raise IngestionError("PROCESSING_FAILED",
                                      "Processed output is missing.",
                                      http_status=500)
-            with open(path, encoding="utf-8") as fh:
-                records = json.load(fh)
+            try:
+                with open(path, encoding="utf-8") as fh:
+                    records = json.load(fh)
+            except (OSError, json.JSONDecodeError) as exc:
+                raise IngestionError("PROCESSING_FAILED",
+                                     "Processed output is unreadable.",
+                                     http_status=500) from exc
             entities: list[dict] = []
             for record in records:
                 entities.extend(_extract_record(record, names, locations))

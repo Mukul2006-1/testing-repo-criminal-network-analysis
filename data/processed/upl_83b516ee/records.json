@@ -1,0 +1,382 @@
+[
+  {
+    "source_id": "location_001",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_001",
+      "name": "Shanti Nagar, Delhi",
+      "latitude": "28.6139",
+      "longitude": "77.2090"
+    },
+    "normalized": {
+      "location_id": "location_001",
+      "name": "Shanti Nagar, Delhi",
+      "latitude": 28.6139,
+      "longitude": 77.209,
+      "name_normalized": "shanti nagar, delhi"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_002",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_002",
+      "name": "Green Park Extension, Delhi",
+      "latitude": "28.5571",
+      "longitude": "77.2067"
+    },
+    "normalized": {
+      "location_id": "location_002",
+      "name": "Green Park Extension, Delhi",
+      "latitude": 28.5571,
+      "longitude": 77.2067,
+      "name_normalized": "green park extension, delhi"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_003",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_003",
+      "name": "Ashok Vihar, Delhi",
+      "latitude": "",
+      "longitude": ""
+    },
+    "normalized": {
+      "location_id": "location_003",
+      "name": "Ashok Vihar, Delhi",
+      "name_normalized": "ashok vihar, delhi"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_004",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_004",
+      "name": "Lakeview Colony, Mumbai",
+      "latitude": "19.0760",
+      "longitude": "72.8777"
+    },
+    "normalized": {
+      "location_id": "location_004",
+      "name": "Lakeview Colony, Mumbai",
+      "latitude": 19.076,
+      "longitude": 72.8777,
+      "name_normalized": "lakeview colony, mumbai"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_005",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_005",
+      "name": "Shivaji Park, Mumbai",
+      "latitude": "19.0282",
+      "longitude": "72.8370"
+    },
+    "normalized": {
+      "location_id": "location_005",
+      "name": "Shivaji Park, Mumbai",
+      "latitude": 19.0282,
+      "longitude": 72.837,
+      "name_normalized": "shivaji park, mumbai"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_006",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_006",
+      "name": "MG Road, Bengaluru",
+      "latitude": "12.9716",
+      "longitude": "77.5946"
+    },
+    "normalized": {
+      "location_id": "location_006",
+      "name": "MG Road, Bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "name_normalized": "mg road, bengaluru"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_007",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_007",
+      "name": "Whitefield, Bengaluru",
+      "latitude": "12.9698",
+      "longitude": "77.7500"
+    },
+    "normalized": {
+      "location_id": "location_007",
+      "name": "Whitefield, Bengaluru",
+      "latitude": 12.9698,
+      "longitude": 77.75,
+      "name_normalized": "whitefield, bengaluru"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_008",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_008",
+      "name": "Anna Nagar, Chennai",
+      "latitude": "13.0827",
+      "longitude": "80.2707"
+    },
+    "normalized": {
+      "location_id": "location_008",
+      "name": "Anna Nagar, Chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "name_normalized": "anna nagar, chennai"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_009",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_009",
+      "name": "T Nagar, Chennai",
+      "latitude": "13.0418",
+      "longitude": "80.2341"
+    },
+    "normalized": {
+      "location_id": "location_009",
+      "name": "T Nagar, Chennai",
+      "latitude": 13.0418,
+      "longitude": 80.2341,
+      "name_normalized": "t nagar, chennai"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_010",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_010",
+      "name": "Aliganj, Lucknow",
+      "latitude": "26.8500",
+      "longitude": "80.9462"
+    },
+    "normalized": {
+      "location_id": "location_010",
+      "name": "Aliganj, Lucknow",
+      "latitude": 26.85,
+      "longitude": 80.9462,
+      "name_normalized": "aliganj, lucknow"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_011",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_011",
+      "name": "Gomti Nagar, Lucknow",
+      "latitude": "26.8467",
+      "longitude": "80.9462"
+    },
+    "normalized": {
+      "location_id": "location_011",
+      "name": "Gomti Nagar, Lucknow",
+      "latitude": 26.8467,
+      "longitude": 80.9462,
+      "name_normalized": "gomti nagar, lucknow"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_012",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_012",
+      "name": "Kothrud, Pune",
+      "latitude": "18.5074",
+      "longitude": "73.8077"
+    },
+    "normalized": {
+      "location_id": "location_012",
+      "name": "Kothrud, Pune",
+      "latitude": 18.5074,
+      "longitude": 73.8077,
+      "name_normalized": "kothrud, pune"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_013",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_013",
+      "name": "Hadapsar, Pune",
+      "latitude": "18.5089",
+      "longitude": "73.9260"
+    },
+    "normalized": {
+      "location_id": "location_013",
+      "name": "Hadapsar, Pune",
+      "latitude": 18.5089,
+      "longitude": 73.926,
+      "name_normalized": "hadapsar, pune"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_014",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_014",
+      "name": "Salt Lake, Kolkata",
+      "latitude": "22.5726",
+      "longitude": "88.3639"
+    },
+    "normalized": {
+      "location_id": "location_014",
+      "name": "Salt Lake, Kolkata",
+      "latitude": 22.5726,
+      "longitude": 88.3639,
+      "name_normalized": "salt lake, kolkata"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_015",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_015",
+      "name": "New Town, Kolkata",
+      "latitude": "22.5793",
+      "longitude": "88.4582"
+    },
+    "normalized": {
+      "location_id": "location_015",
+      "name": "New Town, Kolkata",
+      "latitude": 22.5793,
+      "longitude": 88.4582,
+      "name_normalized": "new town, kolkata"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "location_016",
+    "source_type": "LOCATION",
+    "upload_id": "upl_83b516ee",
+    "original": {
+      "location_id": "location_016",
+      "name": "Riverbank Colony, Patna",
+      "latitude": "",
+      "longitude": ""
+    },
+    "normalized": {
+      "location_id": "location_016",
+      "name": "Riverbank Colony, Patna",
+      "name_normalized": "riverbank colony, patna"
+    },
+    "provenance": {
+      "source_file": "locations.csv",
+      "dataset_type": "LOCATION",
+      "ingested_at": "2026-09-12T17:27:56Z",
+      "status": "PROCESSED"
+    }
+  }
+]

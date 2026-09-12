@@ -90,7 +90,7 @@ def normalize_account(value: object) -> str:
 
 def normalize_timestamp(value: object) -> str:
     """Any supported timestamp -> "YYYY-MM-DDTHH:MM:SSZ" (UTC)."""
-    text = str(value).strip().replace("Z", "").strip()
+    text = str(value).strip().removesuffix("Z").strip()
     if not text:
         raise ValueError("empty timestamp")
     parsed: datetime | None = None
@@ -120,8 +120,8 @@ def normalize_amount(value: object) -> float | int:
         amount = float(str(value).replace(",", "").strip())
     except (TypeError, ValueError) as exc:
         raise ValueError(f"non-numeric amount: {value!r}") from exc
-    if amount <= 0:
-        raise ValueError(f"amount must be > 0: {value!r}")
+    if amount < 0:
+        raise ValueError(f"amount must be >= 0: {value!r}")
     return int(amount) if amount.is_integer() else amount
 
 
@@ -137,6 +137,28 @@ def normalize_duration(value: object) -> int:
     if duration < 0:
         raise ValueError(f"duration must be >= 0: {value!r}")
     return duration
+
+
+def normalize_latitude(value: object) -> float:
+    """WGS84 latitude in -90..90 (NEO4J_SCHEMA.md graph contract)."""
+    try:
+        latitude = float(str(value).strip())
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"latitude must be numeric: {value!r}") from exc
+    if not -90 <= latitude <= 90:
+        raise ValueError(f"latitude out of range -90..90: {value!r}")
+    return latitude
+
+
+def normalize_longitude(value: object) -> float:
+    """WGS84 longitude in -180..180 (NEO4J_SCHEMA.md graph contract)."""
+    try:
+        longitude = float(str(value).strip())
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"longitude must be numeric: {value!r}") from exc
+    if not -180 <= longitude <= 180:
+        raise ValueError(f"longitude out of range -180..180: {value!r}")
+    return longitude
 
 
 def _norm(rule, value, errors: list, record_index: int, field: str,
@@ -174,8 +196,8 @@ PLANS: dict[str, dict[str, tuple]] = {
     },
     "TRANSACTION": {
         "transaction_id": (lambda v: normalize_whitespace(str(v)), "INVALID_RECORD_STRUCTURE", False),
-        "sender_account": (lambda v: normalize_whitespace(str(v)).upper(), "INVALID_RECORD_STRUCTURE", False),
-        "receiver_account": (lambda v: normalize_whitespace(str(v)).upper(), "INVALID_RECORD_STRUCTURE", False),
+        "sender_account": (normalize_account, "INVALID_RECORD_STRUCTURE", False),
+        "receiver_account": (normalize_account, "INVALID_RECORD_STRUCTURE", False),
         "amount": (normalize_amount, "INVALID_NUMERIC_VALUE", False),
         "currency": (lambda v: normalize_whitespace(str(v)).upper(), "INVALID_RECORD_STRUCTURE", False),
         "timestamp": (normalize_timestamp, "INVALID_TIMESTAMP", False),
@@ -189,8 +211,8 @@ PLANS: dict[str, dict[str, tuple]] = {
     "LOCATION": {
         "location_id": (lambda v: normalize_whitespace(str(v)), "INVALID_RECORD_STRUCTURE", False),
         "name": (normalize_name, "INVALID_RECORD_STRUCTURE", False),
-        "latitude": (lambda v: float(str(v).strip()), "INVALID_NUMERIC_VALUE", True),
-        "longitude": (lambda v: float(str(v).strip()), "INVALID_NUMERIC_VALUE", True),
+        "latitude": (normalize_latitude, "INVALID_NUMERIC_VALUE", True),
+        "longitude": (normalize_longitude, "INVALID_NUMERIC_VALUE", True),
     },
 }
 

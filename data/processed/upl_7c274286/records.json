@@ -1,0 +1,152 @@
+[
+  {
+    "source_id": "FIR_N01",
+    "source_type": "FIR",
+    "upload_id": "upl_7c274286",
+    "original": {
+      "fir_id": "FIR_N01",
+      "date": "2026-08-02",
+      "police_station": "Harbour View Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Arjun Nair reported a minor parking dispute involving Divya Menon near Seaside Market, Kochi. A phone number 9822044510 was shared for follow-up contact. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_N01",
+      "date": "2026-08-02",
+      "police_station": "Harbour View Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Arjun Nair reported a minor parking dispute involving Divya Menon near Seaside Market, Kochi. A phone number 9822044510 was shared for follow-up contact. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "new_test_data.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-12T15:22:54Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_N02",
+    "source_type": "FIR",
+    "upload_id": "upl_7c274286",
+    "original": {
+      "fir_id": "FIR_N02",
+      "date": "2026-08-05",
+      "police_station": "Harbour View Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Divya Menon reported a lost bag containing documents near Seaside Market, Kochi. The bag was last seen with Kabir Anand. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_N02",
+      "date": "2026-08-05",
+      "police_station": "Harbour View Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Divya Menon reported a lost bag containing documents near Seaside Market, Kochi. The bag was last seen with Kabir Anand. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "new_test_data.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-12T15:22:54Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_N03",
+    "source_type": "FIR",
+    "upload_id": "upl_7c274286",
+    "original": {
+      "fir_id": "FIR_N03",
+      "date": "2026-08-09",
+      "police_station": "Riverside Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Kabir Anand reported a noisy late-night gathering involving Meera Iyer near Old Fort Road, Jaipur. Contact phone 9822044510 was noted again at the scene. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_N03",
+      "date": "2026-08-09",
+      "police_station": "Riverside Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Kabir Anand reported a noisy late-night gathering involving Meera Iyer near Old Fort Road, Jaipur. Contact phone 9822044510 was noted again at the scene. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "new_test_data.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-12T15:22:54Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_N04",
+    "source_type": "FIR",
+    "upload_id": "upl_7c274286",
+    "original": {
+      "fir_id": "FIR_N04",
+      "date": "2026-08-14",
+      "police_station": "Riverside Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Meera Iyer reported a minor fender-bender involving Rohan Bhatt near Old Fort Road, Jaipur. A vehicle bearing registration MH02CD3456 was noted at the scene. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_N04",
+      "date": "2026-08-14",
+      "police_station": "Riverside Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Meera Iyer reported a minor fender-bender involving Rohan Bhatt near Old Fort Road, Jaipur. A vehicle bearing registration MH02CD3456 was noted at the scene. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "new_test_data.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-12T15:22:54Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_N05",
+    "source_type": "FIR",
+    "upload_id": "upl_7c274286",
+    "original": {
+      "fir_id": "FIR_N05",
+      "date": "2026-08-19",
+      "police_station": "Hillcrest Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rohan Bhatt reported a disputed used-vehicle sale involving Sana Qureshi near Pine Circle, Shimla. The vehicle bearing registration MH02CD3456 was inspected by both parties. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_N05",
+      "date": "2026-08-19",
+      "police_station": "Hillcrest Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Rohan Bhatt reported a disputed used-vehicle sale involving Sana Qureshi near Pine Circle, Shimla. The vehicle bearing registration MH02CD3456 was inspected by both parties. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "new_test_data.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-12T15:22:54Z",
+      "status": "PROCESSED"
+    }
+  },
+  {
+    "source_id": "FIR_N06",
+    "source_type": "FIR",
+    "upload_id": "upl_7c274286",
+    "original": {
+      "fir_id": "FIR_N06",
+      "date": "2026-08-24",
+      "police_station": "Hillcrest Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Sana Qureshi reported receiving repeated unwanted calls from phone 9822044510 near Pine Circle, Shimla. The number was advised to be blocked pending verification. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "normalized": {
+      "fir_id": "FIR_N06",
+      "date": "2026-08-24",
+      "police_station": "Hillcrest Police Station",
+      "text": "[SYNTHETIC RECORD] Complainant Sana Qureshi reported receiving repeated unwanted calls from phone 9822044510 near Pine Circle, Shimla. The number was advised to be blocked pending verification. The matter is recorded for investigation support only; no finding of guilt is implied.",
+      "source": "SYNTHETIC"
+    },
+    "provenance": {
+      "source_file": "new_test_data.csv",
+      "dataset_type": "FIR",
+      "ingested_at": "2026-09-12T15:22:54Z",
+      "status": "PROCESSED"
+    }
+  }
+]

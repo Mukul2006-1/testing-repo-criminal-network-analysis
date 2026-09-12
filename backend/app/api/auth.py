@@ -24,6 +24,7 @@ from ..schemas.auth import (
     SetRoleRequest,
 )
 from ..services import auth as auth_svc
+from ..services import audit as audit_mod
 from ..services.validation import IngestionError
 from .deps import error_response, get_service, ok
 
@@ -51,6 +52,11 @@ def login(body: LoginRequest):
                                                    row["password_hash"]):
         return _invalid_credentials()
     token, expires_in = auth_svc.create_access_token(row["id"], row["role"])
+    try:
+        audit_mod.record(store, actor=row["email"], action="auth.login",
+                         target=row["id"])
+    except IngestionError as exc:
+        return error_response(exc)
     return ok({"access_token": token, "token_type": "Bearer",
                "expires_in": expires_in,
                "refresh_token": auth_svc.create_refresh_token(row["id"],
@@ -110,6 +116,9 @@ def create_user(body: CreateUserRequest,
     try:
         user = _create_user(get_service().store, body.name, body.email,
                             body.password, body.role.strip().upper())
+        audit_mod.record(get_service().store,
+                         actor=admin.get("email", admin["id"]),
+                         action="users.create", target=user["id"])
     except IngestionError as exc:
         return error_response(exc)
     return ok({"user": user}, "User created.", status_code=201)
@@ -136,6 +145,9 @@ def set_role(user_id: str, body: SetRoleRequest,
     try:
         auth_svc.validate_role(body.role.strip().upper())
         store.set_user_role(user_id, body.role.strip().upper())
+        audit_mod.record(store, actor=admin.get("email", admin["id"]),
+                         action="users.set_role", target=user_id,
+                         output_hash=audit_mod.digest(body.role.strip().upper()))
     except IngestionError as exc:
         return error_response(exc)
     return ok({"user": auth_svc.public_user(store.get_user_by_id(user_id))},

@@ -18,6 +18,7 @@ from fastapi.responses import JSONResponse
 from ..schemas.graph import BuildRequest
 from ..services import graph_queries as queries
 from ..services import auth as auth_svc
+from ..services import audit as audit_mod
 from ..services.analytics import analytics_summary_for
 from ..services.graph_builder import (
     build_from_upload,
@@ -25,7 +26,7 @@ from ..services.graph_builder import (
     verify_graph,
     write_graph,
 )
-from ..services.validation import IngestionError
+from ..services.validation import ID_RE, IngestionError
 from .deps import (
     error_response,
     get_graph_service,
@@ -112,7 +113,7 @@ def list_entities(type: str | None = Query(None),
 @router.get("/entities/{entity_id}")
 def get_entity_detail(entity_id: str,
                       user: dict = Depends(auth_svc.require_user)):
-    if len(entity_id) > 64:
+    if not ID_RE.match(entity_id):
         return JSONResponse(
             status_code=400,
             content={"success": False,
@@ -226,8 +227,13 @@ def build_graph(body: BuildRequest,
             raise IngestionError("PROCESSING_FAILED",
                                  "Processed output is missing.",
                                  http_status=500)
-        with open(path, encoding="utf-8") as fh:
-            records = json.load(fh)
+        try:
+            with open(path, encoding="utf-8") as fh:
+                records = json.load(fh)
+        except (OSError, json.JSONDecodeError) as exc:
+            raise IngestionError("PROCESSING_FAILED",
+                                 "Processed output is unreadable.",
+                                 http_status=500) from exc
         nodes, relationships, notes = build_from_upload(
             store, body.upload_id, records)
         with service.session() as session:
@@ -240,6 +246,13 @@ def build_graph(body: BuildRequest,
         data = {"upload_id": body.upload_id, **counts,
                 "skipped_notes": notes["skipped"],
                 "verification": verification}
+        audit_mod.record(get_service().store,
+                         actor=user.get("email", user["id"]),
+                         action="graph.build", target=body.upload_id,
+                         output_hash=audit_mod.digest({
+                             "nodes_created": counts.get("nodes_created", 0),
+                             "relationships_created": counts.get(
+                                 "relationships_created", 0)}))
     except IngestionError as exc:
         return error_response(exc)
     if not verification["verified"]:

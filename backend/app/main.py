@@ -13,6 +13,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .api.analytics import router as analytics_router
+from .api.audit import router as audit_router
 from .api.auth import router as auth_router
 from .api.deps import error_response
 from .api.entities import router as entities_router
@@ -43,6 +44,7 @@ app.include_router(process_router, prefix="/api")
 app.include_router(entities_router, prefix="/api")
 app.include_router(graph_router, prefix="/api")
 app.include_router(analytics_router, prefix="/api")
+app.include_router(audit_router, prefix="/api")
 app.include_router(auth_router, prefix="/api")
 app.include_router(search_router, prefix="/api")
 app.include_router(timeline_router, prefix="/api")
