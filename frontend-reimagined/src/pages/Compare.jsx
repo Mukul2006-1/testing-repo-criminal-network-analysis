@@ -3,6 +3,7 @@ import { ApiError, api } from "../services/api.js";
 import { isValidId } from "../utils/validate.js";
 import Card from "../components/Card.jsx";
 import NameId from "../components/NameId.jsx";
+import { T } from "../i18n/LangContext.jsx";
 import { TypeBadge } from "../components/Badges.jsx";
 import NetworkGraph from "../components/NetworkGraph.jsx";
 
@@ -103,7 +104,7 @@ export default function Compare() {
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
           ARGUS Node // Link check
         </p>
-        <h1 className="text-3xl font-extrabold text-ink">Relationship check</h1>
+        <h1 className="text-3xl font-extrabold text-ink"><T k="compare_title" /></h1>
         <p className="text-sm text-slate-500">
           Direct links and shared contacts between two or more entities. Leads for
           investigation — not findings.

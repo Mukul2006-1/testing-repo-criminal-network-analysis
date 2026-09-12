@@ -3,7 +3,9 @@ import { ApiError, api } from "../services/api.js";
 import { isValidId } from "../utils/validate.js";
 import Card from "../components/Card.jsx";
 import EntityCard from "../components/EntityCard.jsx";
+import { T } from "../i18n/LangContext.jsx";
 import NetworkGraph from "../components/NetworkGraph.jsx";
+import WhyFlagged from "../components/WhyFlagged.jsx";
 
 const ENTITY_TYPES = ["PERSON", "PHONE", "LOCATION", "VEHICLE", "ORGANIZATION", "ACCOUNT"];
 
@@ -57,7 +59,7 @@ export default function NetworkExplorer() {
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
           ARGUS Node // Graph
         </p>
-        <h1 className="text-3xl font-extrabold text-ink">Network Explorer</h1>
+        <h1 className="text-3xl font-extrabold text-ink"><T k="network_title" /></h1>
       </div>
 
       <Card title="Graph constraints">
@@ -138,6 +140,9 @@ export default function NetworkExplorer() {
                     Center on {selected}
                   </button>
                   {detail ? <EntityCard entity={detail} /> : <p className="text-sm text-slate-500">Loading details…</p>}
+                  <div className="mt-3">
+                    <WhyFlagged entityId={selected} />
+                  </div>
                 </>
               ) : (
                 <p className="text-sm text-slate-500">Select a node to inspect it.</p>

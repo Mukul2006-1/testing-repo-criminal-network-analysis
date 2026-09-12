@@ -2,8 +2,9 @@ import { useCallback, useEffect, useState } from "react";
 import { ApiError, api } from "../services/api.js";
 import AnomalyCard from "../components/AnomalyCard.jsx";
 import Term from "../components/Glossary.jsx";
+import { T } from "../i18n/LangContext.jsx";
 
-const SEVERITIES = ["", "CRITICAL", "HIGH", "MEDIUM", "LOW"];
+const SEVERITIES = ["", "HIGH", "MEDIUM", "LOW"];
 
 export default function Anomalies() {
   const [severity, setSeverity] = useState("");
@@ -21,9 +22,12 @@ export default function Anomalies() {
         page_size: 50,
         ...(severity ? { severity } : {}),
       });
-      setItems(data.items || []);
-      setTotal(data.pagination?.total ?? 0);
+      const items = Array.isArray(data.items) ? data.items.filter(Boolean) : [];
+      setItems(items);
+      setTotal(data.pagination?.total ?? items.length);
     } catch (err) {
+      setItems([]);
+      setTotal(0);
       setError(err instanceof ApiError ? err.message : "Load failed.");
     } finally {
       setLoading(false);
@@ -41,7 +45,7 @@ export default function Anomalies() {
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
             ARGUS Node // Signals
           </p>
-          <h1 className="text-3xl font-extrabold text-ink">Anomaly dashboard</h1>
+          <h1 className="text-3xl font-extrabold text-ink"><T k="anomalies_title" /></h1>
           <p className="text-sm text-slate-500">
             <Term k="anomaly" /> instances for triage — not evidence of guilt. Showing{" "}
             {items.length} of {total}. <Term k="severity" /> filters the list.

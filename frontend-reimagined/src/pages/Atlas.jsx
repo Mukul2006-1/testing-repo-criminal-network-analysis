@@ -5,6 +5,7 @@ import { formatScore } from "../utils/validate.js";
 import { countByType, filterEntities, mergeScores, paginateRows, sortEntities } from "../utils/atlas.js";
 import Card from "../components/Card.jsx";
 import NameId from "../components/NameId.jsx";
+import { T } from "../i18n/LangContext.jsx";
 import { SeverityBadge, TypeBadge } from "../components/Badges.jsx";
 
 const PAGE_SIZE = 20;
@@ -69,7 +70,7 @@ export default function Atlas() {
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
           ARGUS Node // Atlas
         </p>
-        <h1 className="text-3xl font-extrabold text-ink">Entity directory</h1>
+        <h1 className="text-3xl font-extrabold text-ink"><T k="atlas_title" /></h1>
         <p className="text-sm text-slate-500">
           Every canonical entity in one place — {entities.length} total. Select any row
           for its profile or investigation report.

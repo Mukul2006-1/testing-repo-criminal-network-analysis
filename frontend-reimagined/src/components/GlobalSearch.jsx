@@ -1,9 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../services/api.js";
+import { useLang } from "../i18n/LangContext.jsx";
+import { STRINGS } from "../i18n/strings.js";
 
 /** Sidebar-wide entity search with a live result dropdown. */
 export default function GlobalSearch() {
+  const { t } = useLang();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
   const [open, setOpen] = useState(false);
@@ -51,7 +54,7 @@ export default function GlobalSearch() {
         value={query}
         onChange={(event) => setQuery(event.target.value)}
         onFocus={() => results.length && setOpen(true)}
-        placeholder="Search entities…"
+        placeholder={t(STRINGS.search_entities)}
         className="w-full rounded-xl border border-white/10 bg-white/10 py-2 pl-9 pr-3 text-sm text-white placeholder:text-indigo-200/60 focus:border-white/30 focus:outline-none"
       />
       {open && (results.length > 0 || loading) ? (

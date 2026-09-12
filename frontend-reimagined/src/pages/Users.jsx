@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ApiError, api } from "../services/api.js";
 import Card from "../components/Card.jsx";
+import { T } from "../i18n/LangContext.jsx";
 
 const ROLES = ["INVESTIGATOR", "SENIOR_INVESTIGATOR", "ADMIN"];
 
@@ -68,7 +69,7 @@ export default function Users() {
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
           ARGUS Node // Admin
         </p>
-        <h1 className="text-3xl font-extrabold text-ink">User administration</h1>
+        <h1 className="text-3xl font-extrabold text-ink"><T k="users_title" /></h1>
         <p className="text-sm text-slate-500">Role changes are audit-logged.</p>
       </div>
       {error ? <p className="text-sm text-red-600">{error}</p> : null}

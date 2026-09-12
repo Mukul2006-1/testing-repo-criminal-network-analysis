@@ -1,13 +1,15 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { useAuth } from "../auth/AuthContext.jsx";
+import { T, useLang } from "../i18n/LangContext.jsx";
+import { STRINGS } from "../i18n/strings.js";
 import GlobalSearch from "./GlobalSearch.jsx";
 
 const LINKS = [
-  { to: "/", end: true, icon: "dashboard", label: "Overview" },
-  { to: "/network", icon: "hub", label: "Network" },
-  { to: "/atlas", icon: "travel_explore", label: "Atlas" },
-  { to: "/compare", icon: "compare_arrows", label: "Rel. check" },
-  { to: "/anomalies", icon: "radar", label: "Anomalies" },
+  { to: "/", end: true, icon: "dashboard", label: "nav_overview" },
+  { to: "/network", icon: "hub", label: "nav_network" },
+  { to: "/atlas", icon: "travel_explore", label: "nav_atlas" },
+  { to: "/compare", icon: "compare_arrows", label: "nav_compare" },
+  { to: "/anomalies", icon: "radar", label: "nav_anomalies" },
 ];
 
 function railLinkClass({ isActive }) {
@@ -21,6 +23,7 @@ function railLinkClass({ isActive }) {
 
 export default function Sidebar() {
   const { user, logout, isAdmin } = useAuth();
+  const { lang, setLang, t } = useLang();
   const navigate = useNavigate();
 
   return (
@@ -30,10 +33,10 @@ export default function Sidebar() {
           ARGUS <span className="font-light text-indigo-200">//</span>
         </p>
         <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-indigo-200/80">
-          Network Intelligence
+          <T k="brand_sub" />
         </p>
         <p className="mt-2 inline-block rounded-md bg-white/10 px-2 py-0.5 font-mono text-[10px] text-indigo-100">
-          Synthetic demo data only
+          <T k="demo_only" />
         </p>
       </div>
 
@@ -47,16 +50,33 @@ export default function Sidebar() {
         {LINKS.map((link) => (
           <NavLink key={link.to} to={link.to} end={link.end} className={railLinkClass}>
             <span className="material-symbols-outlined text-[20px]">{link.icon}</span>
-            {link.label}
+            <T k={link.label} />
           </NavLink>
         ))}
         {isAdmin ? (
           <NavLink to="/users" className={railLinkClass}>
             <span className="material-symbols-outlined text-[20px]">group</span>
-            Users
+            <T k="nav_users" />
           </NavLink>
         ) : null}
       </nav>
+
+      <div className="mt-2 px-3">
+        <div className="flex rounded-xl bg-white/10 p-1 text-xs font-bold" role="group" aria-label="Language">
+          {[{ v: "en", label: "EN" }, { v: "hi", label: "हिंदी" }].map((opt) => (
+            <button
+              key={opt.v}
+              type="button"
+              onClick={() => setLang(opt.v)}
+              className={`flex-1 rounded-lg px-2 py-1.5 transition-colors ${
+                lang === opt.v ? "bg-white text-argus-800" : "text-indigo-100/70 hover:text-white"
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      </div>
 
       <div className="mt-auto px-5 pb-5">
         {user ? (
@@ -65,7 +85,7 @@ export default function Sidebar() {
             <p className="font-mono text-[10px] uppercase tracking-wider text-indigo-200">
               {user.role}
             </p>
-            <button
+              <button
               type="button"
               className="mt-2 w-full rounded-lg bg-white/15 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/25"
               onClick={() => {
@@ -73,14 +93,12 @@ export default function Sidebar() {
                 navigate("/login");
               }}
             >
-              Sign out
+              <T k="sign_out" />
             </button>
           </div>
         ) : null}
         <p className="mt-3 font-mono text-[10px] leading-relaxed text-indigo-200/60">
-          Scores are triage signals,
-          <br />
-          not verdicts.
+          <T k="triage_note" />
         </p>
       </div>
     </aside>

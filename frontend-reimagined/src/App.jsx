@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { AuthProvider, ProtectedRoute, RoleRoute } from "./auth/AuthContext.jsx";
 import Sidebar from "./components/Sidebar.jsx";
+import RouteErrorBoundary from "./components/RouteErrorBoundary.jsx";
 import Anomalies from "./pages/Anomalies.jsx";
 import Atlas from "./pages/Atlas.jsx";
 import Compare from "./pages/Compare.jsx";
@@ -17,6 +18,7 @@ function Shell() {
       <Sidebar />
       <main className="min-w-0 flex-1 px-6 py-6 lg:px-10">
         <div className="mx-auto max-w-6xl">
+          <RouteErrorBoundary key={window.location.pathname}>
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
@@ -32,6 +34,7 @@ function Shell() {
             />
             <Route path="*" element={<p className="text-sm text-slate-500">Page not found.</p>} />
           </Routes>
+          </RouteErrorBoundary>
         </div>
       </main>
     </div>

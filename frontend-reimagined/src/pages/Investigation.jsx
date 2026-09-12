@@ -8,11 +8,13 @@ import NameId from "../components/NameId.jsx";
 import NetworkGraph from "../components/NetworkGraph.jsx";
 import ScoreBar from "../components/ScoreBar.jsx";
 import Term from "../components/Glossary.jsx";
+import { T, useLang } from "../i18n/LangContext.jsx";
 import Timeline from "../components/Timeline.jsx";
 import { buildNarrative } from "../utils/narrative.js";
 
 export default function Investigation() {
   const { id } = useParams();
+  const { lang } = useLang();
   const [report, setReport] = useState(null);
   const [graph, setGraph] = useState(null);
   const [timeline, setTimeline] = useState(null);
@@ -59,7 +61,7 @@ export default function Investigation() {
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
             ARGUS Node // Report
           </p>
-          <h1 className="text-3xl font-extrabold text-ink">Investigation report</h1>
+          <h1 className="text-3xl font-extrabold text-ink"><T k="report_title" /></h1>
           <p className="mt-1">
             <NameId name={report.entity?.name} id={report.entity?.id} />
             <span className="ml-2 text-xs text-slate-500">{report.entity?.type}</span>
@@ -79,8 +81,8 @@ export default function Investigation() {
         are triage signals, not findings of guilt or proof of criminal activity.
       </section>
 
-      <Card title="Plain-language summary">
-        <p className="text-sm leading-relaxed text-slate-800">{buildNarrative(report)}</p>
+      <Card title={<T k="summary_title" />}>
+        <p className="text-sm leading-relaxed text-slate-800">{buildNarrative(report, lang)}</p>
         <p className="mt-2 text-xs text-slate-500">
           Hover any underlined term anywhere in the app for its meaning:{" "}
           <Term k="priority" /> · <Term k="pagerank" /> · <Term k="betweenness" /> ·{" "}

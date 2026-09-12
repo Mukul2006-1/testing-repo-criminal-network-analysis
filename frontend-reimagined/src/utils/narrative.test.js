@@ -42,4 +42,14 @@ describe("buildNarrative", () => {
     expect(buildNarrative(null)).toBe("");
     expect(buildNarrative({})).toBe("");
   });
+
+  it("renders a Hindi summary with the same guards", () => {
+    const text = buildNarrative(BASE, "hi");
+    expect(text).toContain("Rohit Sharma (person_007)");
+    expect(text).toContain("0.72");
+    expect(text).toContain("नेटवर्क प्रभाव");
+    expect(text).toContain("दोष के निष्कर्ष नहीं");
+    expect(text).not.toContain("undefined");
+    expect(text).not.toContain("NaN");
+  });
 });

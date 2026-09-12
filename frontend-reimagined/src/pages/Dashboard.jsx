@@ -2,6 +2,8 @@ import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ApiError, api } from "../services/api.js";
 import { useAuth } from "../auth/AuthContext.jsx";
+import { useLang, T } from "../i18n/LangContext.jsx";
+import { STRINGS } from "../i18n/strings.js";
 import { formatScore } from "../utils/validate.js";
 import Card from "../components/Card.jsx";
 import StatCard from "../components/StatCard.jsx";
@@ -29,6 +31,7 @@ function Stage({ label, state }) {
 
 export default function Dashboard() {
   const { canRunAnalytics } = useAuth();
+  const { t } = useLang();
   const [stats, setStats] = useState(null);
   const [statsError, setStatsError] = useState("");
   const [loading, setLoading] = useState(true);
@@ -146,9 +149,9 @@ export default function Dashboard() {
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
             ARGUS Node // Overview
           </p>
-          <h1 className="text-3xl font-extrabold text-ink">Overview</h1>
+          <h1 className="text-3xl font-extrabold text-ink"><T k="overview_title" /></h1>
           <p className="text-sm text-slate-500">
-            Autonomous link analysis and live entity triage. <Term k="priority" /> orders
+            <T k="overview_sub" /> <Term k="priority" /> orders
             what to review first — hover any underlined term for its meaning.
           </p>
         </div>
@@ -161,7 +164,7 @@ export default function Dashboard() {
               disabled={refreshing || busy}
               title="Re-score every processed upload from the current graph"
             >
-              {refreshing ? "Refreshing…" : "↻ Refresh scores"}
+              {refreshing ? t(STRINGS.refreshing) : t(STRINGS.refresh_scores)}
             </button>
             {receipt ? <p className="mt-1 text-xs text-green-700">{receipt}</p> : null}
             {refreshError ? <p className="mt-1 text-xs text-red-600">{refreshError}</p> : null}
@@ -176,29 +179,29 @@ export default function Dashboard() {
       ) : stats ? (
         <>
           <div className="grid grid-cols-2 gap-4 xl:grid-cols-4">
-            <StatCard icon="database" label="Entities" value={stats.entities} />
+            <StatCard icon="database" label={t(STRINGS.kpi_entities)} value={stats.entities} />
             <StatCard
               icon="share"
-              label="Relationships (est.)"
+              label={t(STRINGS.kpi_relationships)}
               value={stats.relationships ?? "—"}
-              sub="Requires an analytics run"
+              sub={t(STRINGS.needs_analytics)}
               tone="bg-sky-50 text-sky-600"
             />
             <StatCard
               icon="warning"
-              label="Anomalies"
+              label={t(STRINGS.kpi_anomalies)}
               value={stats.anomalies}
               tone="bg-red-50 text-red-500"
             />
             <StatCard
               icon="groups"
-              label="Communities"
+              label={t(STRINGS.kpi_communities)}
               value={stats.communities}
               tone="bg-emerald-50 text-emerald-600"
             />
           </div>
           <div className="grid gap-4 xl:grid-cols-2">
-            <Card title="Top structural entities (PageRank)">
+            <Card title={t(STRINGS.top_entities)}>
               {stats.top.length === 0 ? (
                 <p className="text-sm text-slate-500">No analytics yet — run the pipeline below.</p>
               ) : (
@@ -219,11 +222,11 @@ export default function Dashboard() {
                 </ul>
               )}
             </Card>
-            <Card title="Ingest evidence pipeline">
+            <Card title={t(STRINGS.ingest_title)}>
               <p className="text-xs text-slate-500">Upload → process → graph → analytics</p>
               <form className="mt-3 flex flex-wrap items-end gap-3" onSubmit={runPipeline}>
                 <label className="text-sm">
-                  <span className="font-semibold text-slate-600">File (CSV/JSON/TXT)</span>
+                  <span className="font-semibold text-slate-600"><T k="file_label" /></span>
                   <input
                     className="mt-1 block text-sm"
                     type="file"
@@ -232,7 +235,7 @@ export default function Dashboard() {
                   />
                 </label>
                 <label className="text-sm">
-                  <span className="font-semibold text-slate-600">Dataset type</span>
+                  <span className="font-semibold text-slate-600"><T k="dataset_label" /></span>
                   <select
                     className="mt-1 block rounded-xl border border-slate-300 bg-white px-2 py-2"
                     value={datasetType}
@@ -248,7 +251,7 @@ export default function Dashboard() {
                   type="submit"
                   disabled={busy}
                 >
-                  {busy ? "Running…" : "Upload & process"}
+                  {busy ? t(STRINGS.running) : t(STRINGS.upload_process)}
                 </button>
               </form>
               <div className="mt-3 flex flex-wrap gap-2">

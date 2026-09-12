@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../auth/AuthContext.jsx";
+import { T, useLang } from "../i18n/LangContext.jsx";
+import { STRINGS } from "../i18n/strings.js";
 
 const FEATURES = [
   { icon: "hub", title: "Knowledge Graph", text: "Entities and relationships resolved into one canonical graph." },
@@ -10,6 +12,7 @@ const FEATURES = [
 
 export default function Login() {
   const { login } = useAuth();
+  const { lang, setLang, t } = useLang();
   const navigate = useNavigate();
   const location = useLocation();
   const [username, setUsername] = useState("");
@@ -60,14 +63,19 @@ export default function Login() {
       </div>
 
       <div className="dot-grid p-8 sm:p-10">
-        <h1 className="text-2xl font-extrabold text-ink">Sign in to your console</h1>
+        <div className="mb-4 flex gap-2 text-xs font-bold">
+          <button type="button" onClick={() => setLang("en")}
+            className={`rounded-lg px-3 py-1 ${lang === "en" ? "bg-argus-600 text-white" : "bg-slate-100"}`}>EN</button>
+          <button type="button" onClick={() => setLang("hi")}
+            className={`rounded-lg px-3 py-1 ${lang === "hi" ? "bg-argus-600 text-white" : "bg-slate-100"}`}>हिंदी</button>
+        </div>
+        <h1 className="text-2xl font-extrabold text-ink"><T k="login_title" /></h1>
         <p className="mt-1 text-sm text-slate-500">
-          Use credentials created by your administrator
-          (<span className="font-mono text-xs">scripts/create_admin.py</span>).
+          <T k="login_sub" /> (<span className="font-mono text-xs">scripts/create_admin.py</span>).
         </p>
         <form className="mt-6 space-y-4" onSubmit={submit}>
           <label className="block text-sm">
-            <span className="font-semibold text-slate-600">Work email</span>
+            <span className="font-semibold text-slate-600"><T k="email_label" /></span>
             <input
               className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 focus:border-argus-500 focus:outline-none focus:ring-2 focus:ring-argus-100"
               value={username}
@@ -77,7 +85,7 @@ export default function Login() {
             />
           </label>
           <label className="block text-sm">
-            <span className="font-semibold text-slate-600">Password</span>
+            <span className="font-semibold text-slate-600"><T k="password_label" /></span>
             <input
               className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 focus:border-argus-500 focus:outline-none focus:ring-2 focus:ring-argus-100"
               type="password"
@@ -92,7 +100,7 @@ export default function Login() {
             type="submit"
             disabled={busy}
           >
-            {busy ? "Signing in…" : "Access Secure Console →"}
+            {busy ? t(STRINGS.signing_in) : t(STRINGS.sign_in)}
           </button>
         </form>
         <p className="mt-6 rounded-xl bg-amber-50 p-3 text-xs leading-relaxed text-amber-800">

@@ -5,8 +5,10 @@ import { isValidId } from "../utils/validate.js";
 import Card from "../components/Card.jsx";
 import EntityCard from "../components/EntityCard.jsx";
 import NameId from "../components/NameId.jsx";
+import { T } from "../i18n/LangContext.jsx";
 import NetworkGraph from "../components/NetworkGraph.jsx";
 import Timeline from "../components/Timeline.jsx";
+import WhyFlagged from "../components/WhyFlagged.jsx";
 
 export default function EntityProfile() {
   const { id } = useParams();
@@ -48,7 +50,7 @@ export default function EntityProfile() {
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-slate-400">
           ARGUS Node // Dossier
         </p>
-        <h1 className="text-3xl font-extrabold text-ink">Entity profile</h1>
+        <h1 className="text-3xl font-extrabold text-ink"><T k="profile_title" /></h1>
         {entity ? (
           <p className="mt-1 text-lg">
             <NameId name={entity.name} id={entity.id} />
@@ -57,6 +59,7 @@ export default function EntityProfile() {
       </div>
 
       <EntityCard entity={entity} />
+      <WhyFlagged entityId={entity.id} />
 
       <div className="grid gap-4 xl:grid-cols-2">
         <Card title="Provenance">
